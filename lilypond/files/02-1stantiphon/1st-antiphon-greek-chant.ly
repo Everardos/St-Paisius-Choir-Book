@@ -16,6 +16,16 @@ bindernumber = \markup {
     \fontsize #14 "#1B" 
 }
 
+titleFont = \markup {\fill-line {
+                \fontsize #8 \caps
+                \override #'(font-name . "EB Garamond")
+                \fromproperty #'header:title
+                }}
+subTitleFont = \markup {\fill-line {
+                \fontsize #2 \override #'(font-name . "EB Garamond Italic")
+                \fromproperty #'header:subtitle
+                }}
+
 \paper {
     #(set-paper-size "letter")
     page-breaking = #ly:optimal-breaking
@@ -70,15 +80,7 @@ cadenzaMeasure = {
   \cadenzaOn
 }
 
-titleFont = \markup {\fill-line {
-                \fontsize #8 \caps
-                \override #'(font-name . "EB Garamond")
-                \fromproperty #'header:title
-                }}
-subTitleFont = \markup {\fill-line {
-                \fontsize #2 \override #'(font-name . "EB Garamond Italic")
-                \fromproperty #'header:subtitle
-                }}
+
 
 SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
