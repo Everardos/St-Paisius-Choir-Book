@@ -1,0 +1,38 @@
+    q'4 q q2 q4 \hideNotes q q \unHideNotes q q1 \thimi 
+    q4 q q2 q4 q q q x2 x1 \thimi
+
+    q4 \hideNotes q q q q \unHideNotes q x2 x \thimi
+    x4 \hideNotes x x \unHideNotes x y2 z4 z q1 q \thimi
+
+    q4 \hideNotes q q q \unHideNotes q x2 \thimi
+    x4 y2 z4 z q2 q4 q1 \thimi
+
+    q4 \hideNotes q q \unHideNotes q x2 \thimi
+    x4 y2 z4 z q2 q4 q q1 \thimi
+
+    q4 \hideNotes q q q q q q q q \unHideNotes q x2. x4 x2 \thimi
+    x4 y2 z4 z q1 \thimi
+
+    q4 \hideNotes q q \unHideNotes q x2. x4 x2 \thimi
+    x4 y2 z4 z z q1 q \thimi
+
+    q4 \hideNotes q q \unHideNotes q x2 x4 x2 \thimi
+    x4 y2 z4 z q1 \thimi
+
+    q4 \hideNotes q q \unHideNotes q x2 x4 x2 \thimi
+    x4 x x x y2 z4 q2 q4 q1 \thimi
+
+    q4 \hideNotes q q q q q q \unHideNotes q x2 x4 x x2 \thimi
+    x4 \hideNotes x x \unHideNotes x y2 z4 z q1 q \thimi
+
+    q4 \hideNotes q q q q q q q q \unHideNotes q x2 x4 x x2 \thimi
+    x4 \hideNotes x x x x x x x \unHideNotes x y2 z4 z q1 q \thimi
+
+    q4 q2 q4 q q x2 x4 x x1  \thimi
+    x4 \hideNotes x x x \unHideNotes x y2 z4 q1 q \thimi
+
+    q4 \hideNotes q q \unHideNotes q x2 x \thimi
+    x4 \hideNotes x x x x x \unHideNotes x y2 z4 q1 q \thimi
+
+    q4 q q x2 x \thimi
+    x4 x x x y2 z4 z q2 q4 q q1 \thimi

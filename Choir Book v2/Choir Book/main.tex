@@ -1,0 +1,101 @@
+\documentclass[14pt]{extbook}
+\usepackage{tabto}
+\usepackage{ebgaramond}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[x11names]{xcolor}
+\usepackage{ragged2e}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{dashrule}
+\usepackage{paracol}
+\usepackage{graphicx} 
+
+
+% Title and other metadata
+
+\title{St. Paisius Choir Book}
+\date{\today}
+
+% Font and image setup
+
+\providecommand\sbseries{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+\let\olditem\item
+
+\graphicspath{ {img/} }
+
+
+% Commands for different parts of the liturgy
+\newcommand{\priest}{\mdseries \item[\textsb{Priest}]}
+\newcommand{\deacon}{\mdseries \item[\textsb{Deacon}]}
+\newcommand{\choir}{\normalfont\sbseries \item[\textsb{\textsc{Choir}}]}
+\newcommand{\choirsemisecret}{\normalfont\sbseries\scshape \item[\textsb{\textsc{Choir}}]}
+\newcommand{\clergy}{\mdseries \item[\textsb{Clergy}]}
+\newcommand{\reader}{\mdseries \item[\textsb{Reader}]}
+
+
+% Other commands
+\newcommand{\rubric}[1]{{\color{Red1}\itshape{#1}}}
+
+% Environments
+
+\newenvironment{rubricsection}{
+    \vspace{3mm}%
+    \includegraphics[width=1\linewidth]{border1-L.png}%
+    }
+    {
+    \includegraphics[width=1\linewidth]{border1-L.png}%
+    \vspace{3mm}%
+}
+\newenvironment{liturgicaltext}{
+    \begin{description}[labelwidth=4em,leftmargin =\dimexpr\labelwidth+\labelsep\relax]
+    }
+    {
+    \end{description}
+}
+\newenvironment{rubricmed}{
+    \vspace{-6mm}
+    \begin{Center}\color{Red1}\itshape
+    }{\end{Center}\vspace{-6mm}}
+
+\newenvironment{hymn}{
+    \textsb{\textsc{Choir}}
+    \sbseries
+}{\mdseries}
+
+\newenvironment{semisecret}{
+    \begin{Center}{\color{Red1} \hdashrule[0.5ex]{\linewidth}{0.4mm}{3mm 2mm 1mm 2mm}}\end{Center}
+}{
+    \begin{Center}{\color{Red1} \hdashrule[0.5ex]{\linewidth}{0.4mm}{3mm 2mm 1mm 2mm}}\end{Center}
+}
+
+\newenvironment{secretprayer}{
+    \small
+    \centered{\rubric{The priest prays secretly:}}
+}{}
+
+\newenvironment{secretprayerbasil}{
+    \small
+    \begin{Center}{\rubric{The priest prays secretly:}}\end{Center}
+    \begin{paracol}{2}
+        \noindent{\textsb{\textsc{St. John:}}}
+        \switchcolumn
+        \noindent{\textsb{\textsc{St. Basil:}}}
+        \switchcolumn
+}{
+    \end{paracol}
+}
+
+
+
+\titleformat{\section}[display]{\normalfont\Large\sbseries}{}{0.5ex}{\Centering}[]
+
+
+\begin{document}
+\pagestyle{plain}
+
+ \input{01-greatlitany.tex}
+
+\end{document}

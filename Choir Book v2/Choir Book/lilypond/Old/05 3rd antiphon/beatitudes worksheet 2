@@ -1,0 +1,38 @@
+    f'4 f d2 d4 \hideNotes d d \unHideNotes d f1 \cadenzaMeasure 
+    f4 f d2 d4 d d d g2 g1 \cadenzaMeasure
+
+    d4 \hideNotes d d d d \unHideNotes d g2 g \cadenzaMeasure
+    g4 \hideNotes g g \unHideNotes g c,2 c4 c f1 f \cadenzaMeasure
+
+    d4 \hideNotes d d d \unHideNotes d g2 \cadenzaMeasure
+    g4 c,2 c4 c f2 f4 f1 \cadenzaMeasure
+
+    d4 \hideNotes d d \unHideNotes d g2 \cadenzaMeasure
+    g4 c,2 c4 c f2 f4 f f1 \cadenzaMeasure
+
+    d4 \hideNotes d d d d d d d d \unHideNotes d g2. g4 g2 \cadenzaMeasure
+    g4 c,2 c4 c f1 \cadenzaMeasure
+
+    d4 \hideNotes d d \unHideNotes d g2. g4 g2 \cadenzaMeasure
+    g4 c,2 c4 c c f1 f \cadenzaMeasure
+
+    d4 \hideNotes d d \unHideNotes d g2 g4 g2 \cadenzaMeasure
+    g4 c,2 c4 c f1 \cadenzaMeasure
+
+    d4 \hideNotes d d \unHideNotes d g2 g4 g2 \cadenzaMeasure
+    g4 g g g c,2 c4 f2 f4 f1 \cadenzaMeasure
+
+    d4 \hideNotes d d d d d d \unHideNotes d g2 g4 g g2 \cadenzaMeasure
+    g4 \hideNotes g g \unHideNotes g c,2 c4 c f1 f \cadenzaMeasure
+
+    d4 \hideNotes d d d d d d d d \unHideNotes d g2 g4 g g2 \cadenzaMeasure
+    g4 \hideNotes g g g g g g g \unHideNotes g c,2 c4 c f1 f \cadenzaMeasure
+
+    d4 d2 d4 d d g2 g4 g g1  \cadenzaMeasure
+    g4 \hideNotes g g g \unHideNotes g c,2 c4 f1 f \cadenzaMeasure
+
+    d4 \hideNotes d d \unHideNotes d g2 g \cadenzaMeasure
+    g4 \hideNotes g g g g g \unHideNotes g c,2 c4 f1 f \cadenzaMeasure
+
+    d4 d d g2 g \cadenzaMeasure
+    g4 g g g c,2 c4 c f2 f4 f f1 \cadenzaMeasure
