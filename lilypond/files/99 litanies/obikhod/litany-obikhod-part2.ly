@@ -54,10 +54,16 @@ VerseThree = \lyricmode {
                 \remove Time_signature_engraver
                 measureBarType = #'()
                 forbidBreakBetweenBarLines = ##f
+                \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/64)
+
+        }
+        \context {
+            \Score
+            \override SpacingSpanner spacing-increment = 4
         }
         \context {
             \Lyrics
-                \override LyricSpace.minimum-distance = #1.0
+                \override LyricSpace.minimum-distance = #5.0
         }
     }
     \midi {

@@ -56,6 +56,10 @@ VerseThree = \lyricmode {
                 forbidBreakBetweenBarLines = ##f
         }
         \context {
+            \Score
+            \override SpacingSpanner spacing-increment = 4
+        }
+        \context {
             \Lyrics
                 \override LyricSpace.minimum-distance = #1.0
         }

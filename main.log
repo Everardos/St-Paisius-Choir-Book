@@ -1,23 +1,27 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.2.3)  4 FEB 2025 19:49
- restricted system commands enabled.
- file:line:error style messages enabled.
-**/home/josh/choirbook/main.tex
-(/home/josh/choirbook/main.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
-Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
-Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended collection.
-luaotfload | conf : Root cache directory is "/home/josh/.texlive2023/texmf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-resolved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-08-19.lua".
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.2.4)  4 FEB 2025 22:51
+ system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/usr/local/texlive/2024/texmf-var/l
+uatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-
+2023-12-28.lua".
 Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.133
+luaotfload | init : Context OpenType loader version 3.134
 Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/josh/.texlive2023/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/usr/local/texlive/2024/texmf-var/l
+uatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -35,288 +39,551 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extbook.cls
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
+4/texmf-dist/tex/latex/extsizes/extbook.cls
 Document Class: extbook 1999/01/07 v1.4a NON-Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+(/usr/local/texlive/2024/texmf-dist/tex/latex/extsizes/size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/josh/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+luaotfload | db : Font names database loaded from /usr/local/texlive/2024/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
-\big@size=\dimen139
+\big@size=\dimen140
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (/usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
-\CurrentLineWidth=\dimen141
-\TabPrevPos=\dimen142
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+\CurrentLineWidth=\dimen142
+\TabPrevPos=\dimen143
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/01/19 v3.10 Customized lists
 \enitkv@toks@=\toks17
-\labelindent=\skip50
-\enit@outerparindent=\dimen143
+\labelindent=\skip51
+\enit@outerparindent=\dimen144
 \enit@toks=\toks18
-\enit@inbox=\box51
-\enit@count@id=\count194
-\enitdp@description=\count195
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+\enit@inbox=\box52
+\enit@count@id=\count269
+\enitdp@description=\count270
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 274.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
-File: x11nam.def 2023/11/15 v3.01 Predefined colors according to Unix/X11 (UK)
-) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip51
-\RaggedLeftLeftskip=\skip52
-\RaggedRightLeftskip=\skip53
-\CenteringRightskip=\skip54
-\RaggedLeftRightskip=\skip55
-\RaggedRightRightskip=\skip56
-\CenteringParfillskip=\skip57
-\RaggedLeftParfillskip=\skip58
-\RaggedRightParfillskip=\skip59
-\JustifyingParfillskip=\skip60
-\CenteringParindent=\skip61
-\RaggedLeftParindent=\skip62
-\RaggedRightParindent=\skip63
-\JustifyingParindent=\skip64
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box52
-\beforetitleunit=\skip65
-\aftertitleunit=\skip66
-\ttl@plus=\dimen144
-\ttl@minus=\dimen145
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip66
+\aftertitleunit=\skip67
+\ttl@plus=\dimen145
+\ttl@minus=\dimen146
 \ttl@toksa=\toks19
-\titlewidth=\dimen146
-\titlewidthlast=\dimen147
-\titlewidthfirst=\dimen148
-) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+\titlewidth=\dimen147
+\titlewidthlast=\dimen148
+\titlewidthfirst=\dimen149
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
-) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
-) (/usr/share/texlive/texmf-dist/tex/latex/dashrule/dashrule.sty
+\etb@tempcnta=\count271
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip68
+\f@nch@offset@elh=\skip69
+\f@nch@offset@erh=\skip70
+\f@nch@offset@olh=\skip71
+\f@nch@offset@orh=\skip72
+\f@nch@offset@elf=\skip73
+\f@nch@offset@erf=\skip74
+\f@nch@offset@olf=\skip75
+\f@nch@offset@orf=\skip76
+\f@nch@height=\skip77
+\f@nch@footalignment=\skip78
+\f@nch@widthL=\skip79
+\f@nch@widthC=\skip80
+\f@nch@widthR=\skip81
+\@temptokenb=\toks20
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/dashrule/dashrule.sty
 Package: dashrule 2013/03/28 v1.3 Dashed rules
- (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
-\c@hdr@segments=\count197
-) (/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
-Package: paracol 2018/12/31 v1.35 
-\pcol@currcol=\count198
-\pcol@nextcol=\count199
-\pcol@ncol=\count266
-\pcol@ncolleft=\count267
-\pcol@page=\count268
-\pcol@basepage=\count269
-\pcol@toppage=\count270
-\pcol@footnotebase=\count271
-\pcol@nfootnotes=\count272
-\pcol@mcid=\count273
-\pcol@prevdepth=\dimen149
-\pcol@colht=\dimen150
-\pcol@textfloatsep=\dimen151
-\pcol@lrmargin=\dimen152
-\pagerim=\dimen153
-\pcol@topskip=\skip76
-\belowfootnoteskip=\skip77
-\pcol@topfnotes=\box53
-\pcol@prespan=\box54
-\pcol@rightpage=\box55
-\pcol@colorstack@saved=\box56
-\pcol@tempboxa=\box57
-\pcol@tempboxb=\box58
+\c@hdr@segments=\count272
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/paracol/paracol.sty
+Package: paracol 2024/10/22 1.36 typeset columns in parallel
+\pcol@currcol=\count273
+\pcol@nextcol=\count274
+\pcol@ncol=\count275
+\pcol@ncolleft=\count276
+\pcol@page=\count277
+\pcol@basepage=\count278
+\pcol@toppage=\count279
+\pcol@footnotebase=\count280
+\pcol@nfootnotes=\count281
+\pcol@mcid=\count282
+\pcol@prevdepth=\dimen150
+\pcol@colht=\dimen151
+\pcol@textfloatsep=\dimen152
+\pcol@lrmargin=\dimen153
+\pagerim=\dimen154
+\pcol@topskip=\skip82
+\belowfootnoteskip=\skip83
+\pcol@topfnotes=\box54
+\pcol@prespan=\box55
+\pcol@rightpage=\box56
+\pcol@colorstack@saved=\box57
+\pcol@tempboxa=\box58
+\pcol@tempboxb=\box59
 \pcol@colorins=\insert252
-\pcol@everyvbox=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+\pcol@everyvbox=\toks21
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+\KV@toks@=\toks22
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 107.
+Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen154
-\Gin@req@width=\dimen155
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count274
-Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box59
-))
-Package: xparse 2023-10-10 L3 Experimental document command parser
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
 )
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count275
-\l__fontspec_language_int=\count276
-\l__fontspec_strnum_int=\count277
-\l__fontspec_tmp_int=\count278
-\l__fontspec_tmpa_int=\count279
-\l__fontspec_tmpb_int=\count280
-\l__fontspec_tmpc_int=\count281
-\l__fontspec_em_int=\count282
-\l__fontspec_emdef_int=\count283
-\l__fontspec_strong_int=\count284
-\l__fontspec_strongdef_int=\count285
-\l__fontspec_tmpa_dim=\dimen156
-\l__fontspec_tmpb_dim=\dimen157
-\l__fontspec_tmpc_dim=\dimen158
- (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from /home/josh/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
+\MT@toks=\toks23
+\MT@tempbox=\box60
+\MT@count=\count283
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
+LaTeX Info: Redefining \leftprotrusion on input line 1076.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1095.
+LaTeX Info: Redefining \textls on input line 1437.
+\MT@outer@kern=\dimen157
+LaTeX Info: Redefining \microtypecontext on input line 2041.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
+\MT@listname@count=\count284
 
-Package fontspec Info: Font family 'EBGaramond(0)' created for font 'EB
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2024/12/12 v3.2 Definitions specific to luatex (RS)
+Lua module: microtype 2024/12/12 v3.2 microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 779.
+LaTeX Info: Redefining \lslig on input line 779.
+\MT@outer@space=\skip84
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3053.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/lyluatex/lyluatex.sty
+Package: lyluatex 2023/04/18 v1.1.5
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/minibox/minibox.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count285
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box61
+))
+Package: minibox 2013/06/21 v0.2a Another type of box.
+\l_minibox_rule_dim=\dimen158
+\l_minibox_pad_dim=\dimen159
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks25
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2024/03/14 v1.0 Provides the file path elements of the curren
+t input file
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))
+\c@currfiledepth=\count286
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count287
+\calc@Bcount=\count288
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count289
+\calc@Cskip=\skip87
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen162
+\ESO@tempdimb=\dimen163
+)
+\AM@pagewidth=\dimen164
+\AM@pageheight=\dimen165
+\AM@fboxrule=\dimen166
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2025/01/30 v0.6e Pdfpages driver for LuaTeX (AM)
+)
+\pdfpages@includegraphics@status=\count290
+\AM@pagebox=\box62
+\AM@global@opts=\toks26
+\AM@pagecnt=\count291
+\AM@toc@title=\toks27
+\AM@lof@heading=\toks28
+\c@AM@survey=\count292
+\AM@templatesizebox=\box63
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count293
+\@vwid@loff=\dimen167
+\@vwid@roff=\dimen168
+)
+(/usr/local/texlive/2024/texmf-dist/tex/lualatex/luaoptions/luaoptions.sty
+Package: luaoptions 2022/10/30 v0.8
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count294
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
+\XKV@depth=\count295
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+Lua module: luaoptions 2022/10/30 v0.8 Module luaoptions.
+Lua module: luaoptions-lib 2022/10/30 v0.8 Module luaoptions-lib.)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\xl@everylogo=\toks31
+\xl@@everylogo=\toks32
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+Lua module: lyluatex 2023/04/18 v1.1.5 Module lyluatex.)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count296
+\l__fontspec_language_int=\count297
+\l__fontspec_strnum_int=\count298
+\l__fontspec_tmp_int=\count299
+\l__fontspec_tmpa_int=\count300
+\l__fontspec_tmpb_int=\count301
+\l__fontspec_tmpc_int=\count302
+\l__fontspec_em_int=\count303
+\l__fontspec_emdef_int=\count304
+\l__fontspec_strong_int=\count305
+\l__fontspec_strongdef_int=\count306
+\l__fontspec_tmpa_dim=\dimen169
+\l__fontspec_tmpb_dim=\dimen170
+\l__fontspec_tmpc_dim=\dimen171
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2024/texmf-var/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(0)' created for font 'EB
 (fontspec)             Garamond' with options
-(fontspec)             [Ligatures=TeX,Ligatures={TeX,Common},Numbers={OldStyle,Proportional},UprightFont
-(fontspec)             = *-Regular,BoldFont = *-Bold,ItalicFont =
-(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic].
+(fontspec)             [Ligatures=TeX,Ligatures={TeX,Common},Numbers={OldStyle,
+Proportional},UprightFont
+(fontspec)             = *-Regular,BoldFont = *-SemiBold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-SemiBoldItalic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Regular:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Regular:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Bold:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:EB
+(fontspec)             Garamond-Regular:mode=node;script=latn;language=dflt;+tl
+ig;+liga;+onum;+pnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:EB
+(fontspec)             Garamond-Regular:mode=node;script=latn;language=dflt;+tl
+ig;+liga;+onum;+pnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:EB
+(fontspec)             Garamond-SemiBold:mode=node;script=latn;language=dflt;+t
+lig;+liga;+onum;+pnum;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Bold:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Italic:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;"
+(fontspec)             <->"name:EB
+(fontspec)             Garamond-SemiBold:mode=node;script=latn;language=dflt;+t
+lig;+liga;+onum;+pnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:EB
+(fontspec)             Garamond-Italic:mode=node;script=latn;language=dflt;+tli
+g;+liga;+onum;+pnum;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"EBGaramond-Italic:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"EBGaramond-BoldItalic:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;"
+(fontspec)             <->"name:EB
+(fontspec)             Garamond-Italic:mode=node;script=latn;language=dflt;+tli
+g;+liga;+onum;+pnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:EB
+(fontspec)             Garamond-SemiBoldItalic:mode=node;script=latn;language=d
+flt;+tlig;+liga;+onum;+pnum;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"EBGaramond-BoldItalic:mode=node;script=latn;language=dflt;+tlig;+liga;+onum;+pnum;+smcp;"
+(fontspec)             <->"name:EB
+(fontspec)             Garamond-SemiBoldItalic:mode=node;script=latn;language=d
+flt;+tlig;+liga;+onum;+pnum;+smcp;"
 
- (./main.aux)
+
+(./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 111.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen159
-\scratchbox=\box60
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen160
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count307
+\scratchdimen=\dimen172
+\scratchbox=\box65
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen173
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks34
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks24
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen174
+\MT@vwid@rightmargin=\dimen175
+LaTeX Info: Redefining \microtypecontext on input line 113.
+Package microtype Info: Applying patch `item' on input line 113.
+Package microtype Info: Applying patch `toc' on input line 113.
+Package microtype Info: Applying patch `eqnum' on input line 113.
+Package microtype Info: Applying patch `footnote' on input line 113.
+Package microtype Info: Applying patch `verbatim' on input line 113.
+LaTeX Info: Redefining \microtypesetup on input line 113.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 113.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-EBGaramond.cfg
+File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / A
+dobe Garamond (RS)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./01-greatlitany.tex
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(./01-greatlitany.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Great Litany| 
  []
 
-<img/border1-L.png, id=1, 4056.15375pt x 239.89626pt>
+Package microtype Info: Character `156' is missing
+(microtype)             in font `TU/EBGaramond(0)/m/it/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 6.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Module lyluatex Warning: Found something incompatible with `fragment`
+(lyluatex)               (or `relative`). Setting them to false.
+(lyluatex)               on input line 6
+Module lyluatex Info: Compiling score tmp-ly/549d1fb361d35d54733e83c93d26cc5d wi
+th LilyPond executable 'lilypond'. on input line 6
+Package epstopdf Info: Source file: <tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1.
+eps>
+(epstopdf)                    date: 2025-02-04 22:47:32
+(epstopdf)                    size: 1348841 bytes
+(epstopdf)             Output file: <tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-04 22:47:33
+(epstopdf)                    size: 34749 bytes
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/549d1fb361d35d54733
+e83c93d26cc5d-1-eps-converted-to.pdf tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1.
+eps>
+(epstopdf)             \includegraphics on input line 2.
+Package epstopdf Info: Output file is already uptodate.
+<tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1-eps-converted-to.pdf, id=1, 212.795p
+t x 129.48375pt>
+File: tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/549d1fb361d35d54733e83c93d26cc5d-1-eps-converte
+d-to.pdf  used on input line 2.
+(luatex.def)             Requested size: 212.79446pt x 129.48341pt.
+<img/border1-L.png, id=2, 4056.15375pt x 239.89626pt>
 File: img/border1-L.png Graphic file (type png)
 <use img/border1-L.png>
 Package luatex.def Info: img/border1-L.png  used on input line 9.
@@ -328,12 +595,12 @@ Overfull \hbox (21.59999pt too wide) in paragraph at lines 9--10
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
- []\TU/EBGaramond(0)/m/it/14.4 Dur-ing the Paschal Sea-son: 
+ [][]\TU/EBGaramond(0)/m/it/14.4 Dur-ing the Paschal Sea-son: 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
- []\TU/EBGaramond(0)/m/it/14.4 Then: 
+ [][]\TU/EBGaramond(0)/m/it/14.4 Then: 
  []
 
 File: img/border1-L.png Graphic file (type png)
@@ -345,49 +612,152 @@ Overfull \hbox (21.59999pt too wide) in paragraph at lines 24--25
 [][] 
  []
 
+Module lyluatex Warning: Found something incompatible with `fragment`
+(lyluatex)               (or `relative`). Setting them to false.
+(lyluatex)               on input line 28
+Module lyluatex Info: Compiling score tmp-ly/550afce496f7290a050662fc78d592f4 wi
+th LilyPond executable 'lilypond'. on input line 28
+Module lyluatex Warning: gs couldn't be launched; there could be rounding errors
+. on input line 28
+Package epstopdf Info: Source file: <tmp-ly/550afce496f7290a050662fc78d592f4-1.
+eps>
+(epstopdf)                    date: 2025-02-04 22:51:35
+(epstopdf)                    size: 1351700 bytes
+(epstopdf)             Output file: <tmp-ly/550afce496f7290a050662fc78d592f4-1-
+eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/550afce496f7290a050
+662fc78d592f4-1-eps-converted-to.pdf tmp-ly/550afce496f7290a050662fc78d592f4-1.
+eps>
+(epstopdf)             \includegraphics on input line 2.
+system(repstopdf --outfile=tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-convert
+ed-to.pdf tmp-ly/550afce496f7290a050662fc78d592f4-1.eps) executed.
+Package epstopdf Info: Result file: <tmp-ly/550afce496f7290a050662fc78d592f4-1-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-04 22:51:36
+(epstopdf)                    size: 37556 bytes.
+<tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-converted-to.pdf, id=3, 275.0275
+pt x 131.49126pt>
+File: tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-converte
+d-to.pdf  used on input line 2.
+(luatex.def)             Requested size: 275.02682pt x 131.49092pt.
 
-Overfull \hbox (3.03168pt too wide) in paragraph at lines 31--32
-[]\TU/EBGaramond(0)/m/n/14.4 For the peace of the whole world, the good es-tate of the holy churches
- []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./img/border1-L.png>] [2]) (./02-firstantiphon.tex
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./tmp-ly/
+549d1fb361d35d54733e83c93d26cc5d-1-eps-converted-to.pdf><./img/border1-L.png>]
+Module lyluatex Warning: Found something incompatible with `fragment`
+(lyluatex)               (or `relative`). Setting them to false.
+(lyluatex)               on input line 30
+Module lyluatex Info: Compiling score tmp-ly/d518816b29d97623caf76c8a6e785dc9 wi
+th LilyPond executable 'lilypond'. on input line 30
+Module lyluatex Warning: gs couldn't be launched; there could be rounding errors
+. on input line 30
+Package epstopdf Info: Source file: <tmp-ly/d518816b29d97623caf76c8a6e785dc9-1.
+eps>
+(epstopdf)                    date: 2025-02-04 22:51:36
+(epstopdf)                    size: 1351773 bytes
+(epstopdf)             Output file: <tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-
+eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/d518816b29d97623caf
+76c8a6e785dc9-1-eps-converted-to.pdf tmp-ly/d518816b29d97623caf76c8a6e785dc9-1.
+eps>
+(epstopdf)             \includegraphics on input line 2.
+system(repstopdf --outfile=tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-eps-convert
+ed-to.pdf tmp-ly/d518816b29d97623caf76c8a6e785dc9-1.eps) executed.
+Package epstopdf Info: Result file: <tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-04 22:51:37
+(epstopdf)                    size: 37588 bytes.
+<tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-eps-converted-to.pdf, id=24, 304.136
+25pt x 132.495pt>
+File: tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/d518816b29d97623caf76c8a6e785dc9-1-eps-converte
+d-to.pdf  used on input line 2.
+(luatex.def)             Requested size: 304.1355pt x 132.49466pt.
+
+
+[2<./tmp-ly/550afce496f7290a050662fc78d592f4-1-eps-converted-to.pdf><./tmp-ly/d5
+18816b29d97623caf76c8a6e785dc9-1-eps-converted-to.pdf>]
+
+[3]
+Module lyluatex Warning: Found something incompatible with `fragment`
+(lyluatex)               (or `relative`). Setting them to false.
+(lyluatex)               on input line 53
+Module lyluatex Info: Compiling score tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002 wi
+th LilyPond executable 'lilypond'. on input line 53
+Module lyluatex Warning: gs couldn't be launched; there could be rounding errors
+. on input line 53
+Package epstopdf Info: Source file: <tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1.
+eps>
+(epstopdf)                    date: 2025-02-04 22:51:37
+(epstopdf)                    size: 1351186 bytes
+(epstopdf)             Output file: <tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-
+eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/d4ff5883ad2b6034df2
+d65f5a4f82002-1-eps-converted-to.pdf tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1.
+eps>
+(epstopdf)             \includegraphics on input line 2.
+system(repstopdf --outfile=tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-convert
+ed-to.pdf tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1.eps) executed.
+Package epstopdf Info: Result file: <tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-04 22:51:38
+(epstopdf)                    size: 36903 bytes.
+<tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-converted-to.pdf, id=53, 271.012
+5pt x 139.52126pt>
+File: tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-converte
+d-to.pdf  used on input line 2.
+(luatex.def)             Requested size: 271.01183pt x 139.5209pt.
+) (./02-firstantiphon.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 First An-tiphon| 
  []
 
-[3]
-Underfull \hbox (badness 2875) in paragraph at lines 4--5
- \TU/EBGaramond(0)/m/it/14.4 tiphons be-low are done the three fes-tal an-tiphons. 
+
+Underfull \hbox (badness 2717) in paragraph at lines 4--5
+ \TU/EBGaramond(0)/m/it/14.4 tiphons be-low are done the three fes-tal an-tiphon
+s. 
  []
 
-) (./03-littlelitany1.tex
+
+
+[4<./tmp-ly/d4ff5883ad2b6034df2d65f5a4f82002-1-eps-converted-to.pdf>])
+(./03-littlelitany1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Lit-tle Litany| 
  []
 
-
-Overfull \hbox (3.95335pt too wide) in paragraph at lines 10--11
-[]\TU/EBGaramond(0)/m/n/14.4 For Thine is the do-min-ion, and Thine is the king-dom, and the power,
- []
-
-[4]) (./04-secondantiphon.tex
+) (./04-secondantiphon.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Sec-ond An-tiphon| 
  []
 
-) (./05-littlelitany2.tex
+
+
+[5]) (./05-littlelitany2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Lit-tle Litany| 
  []
 
-[5]) (./06-thirdantiphon.tex
+
+
+[6]) (./06-thirdantiphon.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Third An-tiphon| 
  []
 
-[6]) (./07-littleentry.tex
+
+
+[7]) (./07-littleentry.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Lit-tle En-trance| 
  []
@@ -403,11 +773,10 @@ Overfull \hbox (21.59999pt too wide) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 8--9
- []\TU/EBGaramond(0)/m/it/14.4 But if a dea-con serve, the dea-con ex-claims: 
+Underfull \hbox (badness 4792) in paragraph at lines 8--9
+ [][]\TU/EBGaramond(0)/m/it/14.4 But if a dea-con serve, the dea-con ex-claims: 
  []
 
-[7]
 File: img/border1-L.png Graphic file (type png)
 <use img/border1-L.png>
 Package luatex.def Info: img/border1-L.png  used on input line 19.
@@ -418,108 +787,85 @@ Overfull \hbox (21.59999pt too wide) in paragraph at lines 19--20
  []
 
 
+
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
  |\TU/EBGaramond(0)/b/n/20.74 Tris-a-gion| 
  []
 
+Package microtype Info: Character `156' is missing
+(microtype)             in font `TU/EBGaramond(0)/b/it/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
 ) (./10-epistle.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 The Epis-tle| 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
- \TU/EBGaramond(0)/m/it/14.4 full. 
- []
 
-) (./11-gospel.tex
+
+[9]) (./11-gospel.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 The Gospel| 
  []
 
-[9]) (./12-augmentedlitany.tex
+
+
+[10]) (./12-augmentedlitany.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Aug-mented Litany| 
  []
 
-[10]
-Overfull \hbox (7.0504pt too wide) in paragraph at lines 11--12
-[]\TU/EBGaramond(0)/b/sc/14.4 L󰆏󰆞󰅚󰌿 󰅮󰅆󰆹󰅞 󰆇󰅞󰆞󰅔󰆽󰌾 L󰆏󰆞󰅚󰌿 󰅮󰅆󰆹󰅞 󰆇󰅞󰆞󰅔󰆽󰌾 L󰆏󰆞󰅚󰌿 󰅮󰅆󰆹󰅞 󰆇󰅞󰆞󰅔󰆽󰌾
- []
 
+
+[11]
+Package microtype Info: Character `156' is missing
+(microtype)             in font `TU/EBGaramond(0)/b/scit/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `156' is missing
+(microtype)             in font `TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
  []\TU/EBGaramond(0)/m/it/12 The priest prays se-cretly:[] 
  []
 
-[11]
-Overfull \hbox (12.29568pt too wide) in paragraph at lines 29--30
-\TU/EBGaramond(0)/m/n/14.4 founders of this holy tem-ple (if it be a monastery: this holy monastery):
- []
+
 
 [12]) (./13-litanyofthecatechumens.tex
-Underfull \hbox (badness 4266) in paragraph at lines 1--1
+Underfull \hbox (badness 4366) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Litany of the Cat-e-chu-mens| 
  []
 
 
-Overfull \hbox (12.6605pt too wide) in paragraph at lines 12--13
+
+[13]
+Overfull \hbox (2.80312pt too wide) in paragraph at lines 12--13
 []\TU/EBGaramond(0)/m/n/14.4 That He will unite them to His Holy, Catholic, and Apos-tolic Church. 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
  []\TU/EBGaramond(0)/m/it/12 The priest prays se-cretly:[] 
  []
 
-
-Overfull \hbox (1.67998pt too wide) in paragraph at lines 21--22
-\TU/EBGaramond(0)/m/n/12 and look-est down on things that are lowly, Who
- []
-
-
-Overfull \hbox (19.87997pt too wide) in paragraph at lines 21--22
-\TU/EBGaramond(0)/m/n/12 them to Thy Holy, Catholic and Apos-tolic Church,
- []
-
-
-Overfull \hbox (7.32394pt too wide) in paragraph at lines 23--24
+[14]
+Overfull \hbox (3.13666pt too wide) in paragraph at lines 23--24
 \TU/EBGaramond(0)/m/n/12 down upon Thy ser-vants the Cat-e-chu-mens, who
  []
 
 
-Overfull \hbox (2.9092pt too wide) in paragraph at lines 23--24
-\TU/EBGaramond(0)/m/n/12 them an easy yoke. Make them hon-or-able mem-
- []
-
-
-Overfull \hbox (12.35593pt too wide) in paragraph at lines 23--24
+Overfull \hbox (6.47511pt too wide) in paragraph at lines 23--24
 \TU/EBGaramond(0)/m/n/12 and the gar-ment of in-cor-rup-tion, unto the knowl-
  []
 
 ) (./14-litanyofthefaithful.tex
-Underfull \hbox (badness 7963) in paragraph at lines 1--1
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/b/n/20.74 Litany of the Faith-ful| 
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []\TU/EBGaramond(0)/m/it/12 The priest prays se-cretly:[] 
- []
-
-
-Overfull \hbox (5.05513pt too wide) in paragraph at lines 9--10
-[]\TU/EBGaramond(0)/m/n/12 We thank Thee, O Lord God of Hosts, who
- []
-
-
-Overfull \hbox (2.01201pt too wide) in paragraph at lines 9--10
-\TU/EBGaramond(0)/m/n/12 pli-ca-tions and en-treaties and blood-less sac-ri-fices
- []
-
-
-Overfull \hbox (10.6759pt too wide) in paragraph at lines 9--10
-\TU/EBGaramond(0)/m/n/12 fal-ter-ing, with the clear wit-ness of our con-science,
  []
 
 [15]
@@ -527,28 +873,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
  []\TU/EBGaramond(0)/m/it/12 The priest prays se-cretly:[] 
  []
 
-
-Overfull \hbox (4.1551pt too wide) in paragraph at lines 25--26
-\TU/EBGaramond(0)/m/n/12 Thee, O Good One and Lover of mankind, that,
- []
-
-
-Overfull \hbox (6.19324pt too wide) in paragraph at lines 25--26
-\TU/EBGaramond(0)/m/n/12 un-con-demned be-fore Thy holy al-tar. Grant also,
- []
-
-
-Overfull \hbox (6.54391pt too wide) in paragraph at lines 25--26
-\TU/EBGaramond(0)/m/n/12 demned, of thy Holy Mys-ter-ies, and to be vouch-
- []
-
-
-Overfull \hbox (2.64713pt too wide) in paragraph at lines 27--28
-[]\TU/EBGaramond(0)/m/n/12 O God, who in mercy and com-pas-sion hast
- []
-
-
-Overfull \hbox (4.55594pt too wide) in paragraph at lines 27--28
+[16]
+Overfull \hbox (0.23523pt too wide) in paragraph at lines 27--28
 \TU/EBGaramond(0)/m/n/12 holy glory: Do Thou strengthen us by Thy Holy
  []
 
@@ -562,46 +888,46 @@ Overfull \hbox (21.59999pt too wide) in paragraph at lines 31--32
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 33--34
- []\TU/EBGaramond(0)/m/it/14.4 If there be no dea-con, the fol-low-ing pe-ti-tions are not said. 
+Underfull \hbox (badness 1137) in paragraph at lines 33--34
+ [][]\TU/EBGaramond(0)/m/it/14.4 If there be no dea-con, the fol-low-ing pe-ti-t
+ions are not said. 
  []
 
-
-Overfull \hbox (3.03168pt too wide) in paragraph at lines 38--39
-[]\TU/EBGaramond(0)/m/n/14.4 For the peace of the whole world, the good es-tate of the holy churches
- []
-
-[16]
 File: img/border1-L.png Graphic file (type png)
 <use img/border1-L.png>
 Package luatex.def Info: img/border1-L.png  used on input line 45.
 (luatex.def)             Requested size: 430.0pt x 25.42961pt.
-) (./15-cherubichymn.tex [17]
-Overfull \hbox (5.85408pt too wide) in paragraph at lines 6--7
-[]\TU/EBGaramond(0)/m/n/14.4 This Amer-i-can land, its au-thor-i-ties and the faith-ful that dwell therein,
- []
 
-) (./16-greatentry.tex) (./17-litanyofsupplication.tex) [18] (./main.aux)
+
+[17]) (./15-cherubichymn.tex
+
+[18]) (./16-greatentry.tex) (./17-litanyofsupplication.tex)
+
+[19] (./main.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
 )
 
 Here is how much of LuaTeX's memory you used:
- 7352 strings out of 476553
- 100000,1977958 words of node,token memory allocated
- 576 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 82 glue_spec, 4 attribute_list, 1 write nodes
-   avail lists: 2:431,3:157,4:84,5:452,6:36,7:3660,8:2,9:207,10:11,11:159
- 29124 multiletter control sequences out of 65536+600000
- 35 fonts using 9987831 bytes
- 79i,6n,99p,741b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-BoldItalic.otf></home/josh/.local/share/fonts/1EBGaramond-Italic-VariableFont_wght.ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf>
-Output written on main.pdf (18 pages, 100695 bytes).
+ 11454 strings out of 475512
+ 100000,953878 words of node,token memory allocated
+ 675 words of node memory still in use:
+   4 hlist, 4 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 1 margin_ke
+rn, 4 glyph, 9 attribute, 81 glue_spec, 9 attribute_list, 1 write nodes
+   avail lists: 1:1,2:492,3:156,4:116,5:433,6:47,7:3800,8:2,9:209,10:10,11:152
+ 34121 multiletter control sequences out of 65536+600000
+ 37 fonts using 10112487 bytes
+ 80i,5n,92p,1618b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-
+SemiBoldItalic.otf></home/josh/.local/share/fonts/1EBGaramond-Italic-VariableFon
+t_wght.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/ebgaramond/
+EBGaramond-Regular.otf></home/josh/.local/share/fonts/EBGaramond-SemiBold.ttf>
+Output written on main.pdf (19 pages, 249717 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

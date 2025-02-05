@@ -9,16 +9,18 @@
 \usepackage{fancyhdr}
 \usepackage{dashrule}
 \usepackage{paracol}
-\usepackage{graphicx} 
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{lyluatex} 
 \usepackage{iftex}
 \ifluatex
   \usepackage[no-math]{fontspec}
   \setmainfont{EB Garamond}[Ligatures={TeX,Common},
       Numbers={OldStyle,Proportional},
       UprightFont = *-Regular,
-      BoldFont = *-Bold,
+      BoldFont = *-SemiBold,
       ItalicFont = *-Italic,
-      BoldItalicFont = *-BoldItalic] % choose suitable options
+      BoldItalicFont = *-SemiBoldItalic] % choose suitable options
 \else\ifxetex
   \usepackage[no-math]{fontspec}
   \setmainfont{EB Garamond}[Ligatures={TeX,Common},
