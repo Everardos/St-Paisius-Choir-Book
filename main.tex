@@ -1,6 +1,5 @@
 \documentclass[14pt]{extbook}
 \usepackage{tabto}
-\usepackage{ebgaramond}
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage[x11names]{xcolor}
@@ -11,6 +10,22 @@
 \usepackage{dashrule}
 \usepackage{paracol}
 \usepackage{graphicx} 
+\usepackage{iftex}
+\ifluatex
+  \usepackage[no-math]{fontspec}
+  \setmainfont{EB Garamond}[Ligatures={TeX,Common},
+      Numbers={OldStyle,Proportional},
+      UprightFont = *-Regular,
+      BoldFont = *-Bold,
+      ItalicFont = *-Italic,
+      BoldItalicFont = *-BoldItalic] % choose suitable options
+\else\ifxetex
+  \usepackage[no-math]{fontspec}
+  \setmainfont{EB Garamond}[Ligatures={TeX,Common},
+      Numbers={OldStyle,Proportional}]
+\else % we must be using pdftex
+  \usepackage[oldstyle,proportional]{ebgaramond}
+\fi\fi
 
 
 % Title and other metadata
@@ -20,20 +35,20 @@
 
 % Font and image setup
 
-\providecommand\sbseries{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-\let\olditem\item
+%\providecommand\sbseries{\fontseries{sb}\selectfont}
+%\DeclareTextFontCommand{\textsb}{\sbseries}
+%\let\olditem\item
 
 \graphicspath{ {img/} }
 
 
 % Commands for different parts of the liturgy
-\newcommand{\priest}{\mdseries \item[\textsb{Priest}]}
-\newcommand{\deacon}{\mdseries \item[\textsb{Deacon}]}
-\newcommand{\choir}{\normalfont\sbseries \item[\textsb{\textsc{Choir}}]}
-\newcommand{\choirsemisecret}{\normalfont\sbseries\scshape \item[\textsb{\textsc{Choir}}]}
-\newcommand{\clergy}{\mdseries \item[\textsb{Clergy}]}
-\newcommand{\reader}{\mdseries \item[\textsb{Reader}]}
+\newcommand{\priest}{\mdseries \item[\textbf{Priest}]}
+\newcommand{\deacon}{\mdseries \item[\textbf{Deacon}]}
+\newcommand{\choir}{\normalfont\bfseries \item[\textbf{\textsc{Choir}}]}
+\newcommand{\choirsemisecret}{\normalfont\bfseries\scshape \item[\textbf{\textsc{Choir}}]}
+\newcommand{\clergy}{\mdseries \item[\textbf{Clergy}]}
+\newcommand{\reader}{\mdseries \item[\textbf{Reader}]}
 
 
 % Other commands
@@ -61,8 +76,8 @@
     }{\end{Center}\vspace{-6mm}}
 
 \newenvironment{hymn}{
-    \textsb{\textsc{Choir}}
-    \sbseries
+    \textbf{\textsc{Choir}}
+    \bfseries
 }{\mdseries}
 
 \newenvironment{semisecret}{
@@ -80,9 +95,9 @@
     \small
     \begin{Center}{\rubric{The priest prays secretly:}}\end{Center}
     \begin{paracol}{2}
-        \noindent{\textsb{\textsc{St. John:}}}
+        \noindent{\textbf{\textsc{St. John:}}}
         \switchcolumn
-        \noindent{\textsb{\textsc{St. Basil:}}}
+        \noindent{\textbf{\textsc{St. Basil:}}}
         \switchcolumn
 }{
     \end{paracol}
@@ -90,7 +105,7 @@
 
 
 
-\titleformat{\section}[display]{\normalfont\Large\sbseries}{}{0.5ex}{\Centering}[]
+\titleformat{\section}[display]{\normalfont\Large\bfseries}{}{0.5ex}{\Centering}[]
 
 
 \begin{document}
