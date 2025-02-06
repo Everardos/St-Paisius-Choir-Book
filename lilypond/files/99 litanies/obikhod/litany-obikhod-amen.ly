@@ -23,12 +23,12 @@ VerseOne = \lyricmode {
     A -- men
     }
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-size = #'-1
     А -- минь
     }
 VerseThree = \lyricmode {
-    \override LyricText.font-shape = #'italic
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
+    \override LyricText.font-size = #'-1
     A -- min
 }
 
@@ -59,7 +59,7 @@ VerseThree = \lyricmode {
         }
         \context {
             \Score
-            \override SpacingSpanner spacing-increment = 5
+            \override SpacingSpanner.spacing-increment = 5
         }
         \context {
             \Lyrics

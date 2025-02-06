@@ -23,12 +23,12 @@ VerseOne = \lyricmode {
     To Thee, O Lord
     }
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-size = #'-1
     Те -- бе, Господи
     }
 VerseThree = \lyricmode {
-    \override LyricText.font-shape = #'italic
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
+    \override LyricText.font-size = #'-1
     Tye -- bye, Gospodi
 }
 

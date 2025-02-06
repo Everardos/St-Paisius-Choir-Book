@@ -23,12 +23,12 @@ VerseOne = \lyricmode {
     Lord have mer -- cy
     }
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-size = #'-1
     Гос-по-ди по -- ми -- луй
     }
 VerseThree = \lyricmode {
-    \override LyricText.font-shape = #'italic
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
+    \override LyricText.font-size = #'-1
     Gos-po-di po -- mi -- luy
 }
 

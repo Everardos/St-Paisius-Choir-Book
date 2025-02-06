@@ -23,12 +23,12 @@ VerseOne = \lyricmode {
     Grant this, O Lord
     }
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-size = #'-1
     Подай, Гос -- по -- ди
     }
 VerseThree = \lyricmode {
-    \override LyricText.font-shape = #'italic
-    \override LyricText.font-size = #'-2
+    \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
+    \override LyricText.font-size = #'-1
     Poday, Gos -- po -- di
 }
 
