@@ -86,6 +86,11 @@ cadenzaMeasure = {
   \cadenzaOn
 }
 
+#(define-markup-command (ebItalic layout props text)
+   (markup?)
+   (interpret-markup layout props
+     (markup #:override '(font-name . "EB Garamond Italic") text )))
+
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
@@ -133,8 +138,8 @@ VerseOne = \lyricmode {
 
     }
 
-\markup {Deacon: Wisdom! Aright!}
-
+\markup {\larger { "Deacon:" \hspace #5 "Wisdom! Aright!"}}
+\markup \vspace #2
 \score {
     \new StaffGroup <<
         \new Staff \with {instrumentName = \markup {
@@ -192,8 +197,8 @@ VerseOne = \lyricmode {
             "2. [Who art wondrous in Thy saints.]"
             "3. [through the prayers of the Theotokos]"
             "4. [through the prayers of the Forerunner]"
-            \line {"5." \italic Cross: "[Who wast crucified in the flesh.]"}
-            \line {"6." \italic Christmas: "[Who wast born of the Virgin]"}
+            \line {"5." \ebItalic{Cross:} "[Who wast crucified in the flesh.]"}
+            \line {"6." \ebItalic Christmas: "[Who wast born of the Virgin]"}
         }
       }
     }
@@ -201,10 +206,10 @@ VerseOne = \lyricmode {
     {
       \column {
         \left-align {
-            \line {"7." \italic "Jan. 1:" "[Who wast circumcised in the flesh.]"}
-            \line {"8." \italic Theophany: "[Who wast baptized in the Jordan.]"}
-            \line {"9." \italic Ascension: "[Who hast ascended in glory.]"}
-            \line {"10." \italic Transfiguration: "[Who wast"}
+            \line {"7." \ebItalic "Jan. 1:" "[Who wast circumcised in the flesh.]"}
+            \line {"8." \ebItalic Theophany: "[Who wast baptized in the Jordan.]"}
+            \line {"9." \ebItalic Ascension: "[Who hast ascended in glory.]"}
+            \line {"10." \ebItalic Transfiguration: "[Who wast"}
             \line {\hspace #12 "transfigured on the mount.]"}
         }
       }

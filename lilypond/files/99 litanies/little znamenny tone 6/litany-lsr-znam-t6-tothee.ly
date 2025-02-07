@@ -34,17 +34,25 @@ BassMusic   = \relative {
 
 
 VerseOne = \lyricmode {
-    To Thee, O Lord.
+    To Thee, __ O Lord. __
     }
 
 VerseTwo = \lyricmode {
     \override LyricText.font-size = #'-1
-    Те -- бе, Господи
+    
+    Те --
+    \set ignoreMelismata = ##t
+    бе, Гос -- 
+    \set ignoreMelismata = ##f по -- ди. __
     }
 VerseThree = \lyricmode {
     \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
     \override LyricText.font-size = #'-1
-    Tye -- bye, Gospodi
+    Tye -- 
+    \set ignoreMelismata = ##t
+    bye, Gos -- 
+    \set ignoreMelismata = ##f
+    po -- di. __
 }
 
 

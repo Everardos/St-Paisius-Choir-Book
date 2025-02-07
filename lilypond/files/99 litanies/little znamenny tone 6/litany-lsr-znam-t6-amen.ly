@@ -34,17 +34,17 @@ BassMusic   = \relative {
 
 
 VerseOne = \lyricmode {
-    A -- men.
+    A -- men. __
     }
 
 VerseTwo = \lyricmode {
     \override LyricText.font-size = #'-1
-    А -- минь
+    А -- минь. __
     }
 VerseThree = \lyricmode {
     \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
     \override LyricText.font-size = #'-1
-    A -- min
+    A -- min. __
 }
 
 
