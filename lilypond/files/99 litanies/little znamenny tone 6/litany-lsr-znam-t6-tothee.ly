@@ -37,6 +37,16 @@ VerseOne = \lyricmode {
     To Thee, O Lord.
     }
 
+VerseTwo = \lyricmode {
+    \override LyricText.font-size = #'-1
+    Те -- бе, Господи
+    }
+VerseThree = \lyricmode {
+    \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
+    \override LyricText.font-size = #'-1
+    Tye -- bye, Gospodi
+}
+
 
 \score {
     \new Staff <<
@@ -44,6 +54,8 @@ VerseOne = \lyricmode {
         \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
         \new Voice = "Bass" { \voiceTwo \BassMusic }
         \new Lyrics \lyricsto "Sop" { \VerseOne }
+        \new Lyrics \lyricsto "Sop" { \VerseTwo }
+        \new Lyrics \lyricsto "Sop" { \VerseThree }
     >>
 
     \layout {

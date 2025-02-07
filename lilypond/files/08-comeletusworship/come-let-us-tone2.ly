@@ -133,6 +133,7 @@ VerseOne = \lyricmode {
 
     }
 
+\markup {Deacon: Wisdom! Aright!}
 
 \score {
     \new StaffGroup <<
