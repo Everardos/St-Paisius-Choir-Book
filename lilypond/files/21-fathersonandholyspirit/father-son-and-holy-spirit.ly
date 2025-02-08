@@ -1,7 +1,12 @@
 \version "2.24.4"
 
 
-
+\paper {
+    #(define fonts
+        (set-global-fonts
+            #:roman "EB Garamond SemiBold"
+    ))
+}
 
 keyTime = { \key f \major}
 cadenzaMeasure = {
@@ -35,7 +40,7 @@ AltoMusic   = \relative {
     f4 f d f f2 f1 \cadenzaMeasure
 
     f4 \hideNotes f4. \unHideNotes f4 d f2 f
-    f4 d f f2 e f1
+    f4 d f f2 e f1 \cadenzaMeasure \section
 
     %f'4 f f f2 d4 f f2 e4 e f2 \cadenzaMeasure \section
 
@@ -50,7 +55,7 @@ TenorMusic  = \relative {
     c4 c bes c d2 c1 \cadenzaMeasure
 
     c4 \hideNotes c4. \unHideNotes c4 bes c2 c
-    c4 bes c d2 c c1 \cadenzaMeasure
+    c4 bes c d2 c c1 \cadenzaMeasure \section
 
     %c'4 c c c2 bes4 c d2 c4 c c2 \cadenzaMeasure \section
 }
@@ -64,7 +69,7 @@ BassMusic   = \relative {
     f4 f g f bes,2 f'1 \cadenzaMeasure
 
     f4 \hideNotes f4. \unHideNotes f4 g f2 f
-    f4 g f bes,2 c f1
+    f4 g f bes,2 c f1 \cadenzaMeasure \section
 
     %f4 f f f2 g4 f bes,2 c4 c f2 \cadenzaMeasure \section
 }

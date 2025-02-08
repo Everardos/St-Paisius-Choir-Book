@@ -1,4 +1,4 @@
-\documentclass[14pt]{extbook}
+\documentclass[letterpaper, 14pt]{memoir}
 \usepackage{tabto}
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
@@ -47,14 +47,16 @@
 % Commands for different parts of the liturgy
 \newcommand{\priest}{\mdseries \item[\textbf{Priest}]}
 \newcommand{\deacon}{\mdseries \item[\textbf{Deacon}]}
-\newcommand{\choir}{\normalfont\bfseries \item[\textbf{\textsc{Choir}}]}
-\newcommand{\choirsemisecret}{\normalfont\bfseries\scshape \item[\textbf{\textsc{Choir}}]}
+\newcommand{\choir}{\normalfont\bfseries \item[\textbf{\textsc{choir}}]}
+\newcommand{\choirsemisecret}{\normalfont\bfseries\scshape \item[\textbf{\textsc{choir}}]}
 \newcommand{\clergy}{\mdseries \item[\textbf{Clergy}]}
 \newcommand{\reader}{\mdseries \item[\textbf{Reader}]}
+\newcommand{\people}{\normalfont\bfseries \item[\textbf{\textsc{people}}]}
+
 
 
 % Other commands
-\newcommand{\rubric}[1]{{\color{Red1}\itshape{#1}}}
+\newcommand{\rubric}[1]{{\normalfont\color{Red1}\itshape{#1}}}
 
 % Environments
 
@@ -119,16 +121,18 @@
  % \input{04-secondantiphon.tex} \newpage
  \input{05-littlelitany2.tex} \newpage
  % \input{06-thirdantiphon.tex}
- \input{07-littleentry.tex}
- \input{08-tropariaandkontakia.tex}
- \input{09-trisagion.tex}
- \input{10-epistle.tex}
- \input{11-gospel.tex}
- \input{12-augmentedlitany.tex}
- \input{13-litanyofthecatechumens.tex}
- \input{14-litanyofthefaithful.tex}
- \input{15-cherubichymn.tex}
- \input{16-greatentry.tex}
- \input{17-litanyofsupplication.tex}
+ % \input{07-littleentry.tex} \newpage
+ \input{08-tropariaandkontakia.tex} \newpage
+ \input{09-trisagion.tex} \newpage
+ \input{10-epistle.tex} \newpage
+ \input{11-gospel.tex} \newpage
+ \input{12-augmentedlitany.tex} \newpage
+ \input{13-litanyofthecatechumens.tex} \newpage
+ \input{14-litanyofthefaithful.tex} \newpage
+ % \input{15-cherubichymn.tex} \newpage
+ \input{16-greatentry.tex} \newpage
+ \input{17-litanyofsupplication.tex} \newpage
+ \input{18-creed.tex} \newpage
+
 
 \end{document}

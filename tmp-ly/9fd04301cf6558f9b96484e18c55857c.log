@@ -1,0 +1,32 @@
+GNU LilyPond 2.24.4 (running Guile 2.2)
+Changing working directory to: `tmp-ly'
+Processing `/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly'
+Parsing...
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:2: error: not a note name: lilypond
+{
+ lilypond/files/99 litanies/obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:10: error: syntax error, unexpected '/'
+{lilypond
+         /files/99 litanies/obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:11: error: not a note name: files
+{lilypond/
+          files/99 litanies/obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:17: error: not a duration
+{lilypond/files/
+                99 litanies/obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:20: error: not a note name: litanies
+{lilypond/files/99 
+                   litanies/obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:29: error: not a note name: obikhod
+{lilypond/files/99 litanies/
+                            obikhod/litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:37: error: not a note name: litany-obikhod-tothee
+{lilypond/files/99 litanies/obikhod/
+                                    litany-obikhod-tothee.ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:59: error: not a note name: ly
+{lilypond/files/99 litanies/obikhod/litany-obikhod-tothee.
+                                                          ly}
+/home/josh/choirbook/tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly:31:1: error: errors found, ignoring music expression
+
+{lilypond/files/99 litanies/obikhod/litany-obikhod-tothee.ly}
+fatal error: failed files: "tmp-ly/9fd04301cf6558f9b96484e18c55857c.ly"
