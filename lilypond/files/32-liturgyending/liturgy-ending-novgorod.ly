@@ -98,6 +98,11 @@ subTitleFont = \markup {\fill-line {
 
 }
 
+#(define-markup-command (ebregular layout props text)
+   (markup?)
+   (interpret-markup layout props
+     (markup #:override '(font-name . "EB Garamond") text )))
+
 cadenzaMeasure = {
   \cadenzaOff
   \partial 1024 s1024
@@ -217,6 +222,10 @@ VerseTwo = \lyricmode {
     }
 
 \book{
+    \markup \vspace #2
+    \markup \wordwrap {\larger {  Priest: \ebregular{Save O God, Thy people and bless Thine inheritance.}}}
+    \markup \vspace #1
+
     \score {
         \new StaffGroup <<
             \new Staff <<
@@ -234,6 +243,9 @@ VerseTwo = \lyricmode {
         \layoutVariable
         \midiVariable
     }
+
+    \markup \wordwrap {\larger {  Priest: \ebregular{Always, now and ever, and unto the ages of ages.}}}
+    \markup \vspace #1
 
     \score {
         \new StaffGroup <<
