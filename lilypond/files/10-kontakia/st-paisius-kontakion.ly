@@ -1,14 +1,14 @@
 \version "2.24.4"
 
 \header {
-    title = "troparion of st. paisius"
-    subtitle = "Second Tone"
+    title = "kontakion of st. paisius"
+    subtitle = "Eighth Tone"
     composer = "Obikhod"
     tagline = " "
 
 }
 
-keyTime = { \key f \major}
+keyTime = { \key g \major}
 
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
@@ -85,51 +85,47 @@ cadenzaMeasure = {
 SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    a'4 a a a bes c2 bes4 bes a2 \cadenzaMeasure
-    a4 \hideNotes a a a a a a a \unHideNotes a g2 g f2. \cadenzaMeasure
-    g4 a2 a4 \hideNotes a a a \unHideNotes a bes c2 bes a \cadenzaMeasure
-    a4 \hideNotes a a a a \unHideNotes a g2 g f2. \cadenzaMeasure
-    a4 \hideNotes a a a a a a a \unHideNotes a g bes a2( g) f1 \cadenzaMeasure \fine
+    g'4 a b c c c b \hideNotes b b b b b b b \unHideNotes b a2 a g \cadenzaMeasure
+    g4 a b c b \hideNotes b b b b b \unHideNotes b \allowBreak b \hideNotes b b b b b b b b \unHideNotes b a2 g \cadenzaMeasure
+    g4 a b c b \hideNotes b b b b b \unHideNotes b a2 a g \cadenzaMeasure
+    g4 a b c c b \hideNotes b b b b b b \unHideNotes b a2 a g \cadenzaMeasure \fine
+
+
+
 }
 
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    f'4 f f f f f2 f4 f f2 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f \unHideNotes f e2 e c2. \cadenzaMeasure
-    e4 f2 f4 \hideNotes f f f \unHideNotes f f f2 f f \cadenzaMeasure
-    f4 \hideNotes f f f f \unHideNotes f e2 e c2. \cadenzaMeasure
-    f4 \hideNotes f f f f f f f \unHideNotes f d f f2( e) c1 \cadenzaMeasure \fine
-
+    d'4 fis g g g g g \hideNotes g g g g g g g \unHideNotes g fis2 fis d \cadenzaMeasure
+    d4 fis g g g  \hideNotes g g g g g \unHideNotes g \allowBreak g \hideNotes g g g g g g g g \unHideNotes g fis2 d \cadenzaMeasure
+    d4 fis g g g \hideNotes g g g g g \unHideNotes g fis2 fis d \cadenzaMeasure
+    d4 fis g g g g \hideNotes g g g g g g \unHideNotes g fis2 fis d \cadenzaMeasure
 }
 
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    c'4 c c c d ees2 d4 d c2 \cadenzaMeasure
-    c4 \hideNotes c c c c c c c \unHideNotes c bes2 bes a2. \cadenzaMeasure
-    bes4 c2 c4 \hideNotes c c c \unHideNotes c d ees2 d c \cadenzaMeasure
-    c4 \hideNotes c c c c \unHideNotes c bes2 bes a2. \cadenzaMeasure
-    c4 \hideNotes c c c c c c c \unHideNotes c bes d c2( bes) a1 \cadenzaMeasure \fine
-
+    b4 d d e e e d \hideNotes d d d d d d d \unHideNotes d c2 c b \cadenzaMeasure
+    b4 d d e d \hideNotes d d d d d \unHideNotes d \allowBreak d \hideNotes d d d d d d d d \unHideNotes d c2 b \cadenzaMeasure
+    b4 d d e d \hideNotes d d d d d \unHideNotes d c2 c b \cadenzaMeasure
+    b4 d d e e d \hideNotes d d d d d d \unHideNotes d c2 c b \cadenzaMeasure \fine
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    f4 f f f <bes bes,> <a a,>2 <bes bes,>4 <bes bes,> f2 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f \unHideNotes f c2 c f2. \cadenzaMeasure
-    c4 f2 f4 \hideNotes f f f \unHideNotes f <bes bes,> <a a,>2 <bes bes,> f \cadenzaMeasure
-    f4 \hideNotes f f f f \unHideNotes f c2 c f2. \cadenzaMeasure
-    f4 \hideNotes f f f f f f f \unHideNotes f g bes, c2 c <f f,>1 \cadenzaMeasure \fine
+    g4 d g c, c e g \hideNotes g g g g g g g \unHideNotes g d2 d g \cadenzaMeasure
+    g4 d g c, g' \hideNotes g g g g g \unHideNotes g \allowBreak g \hideNotes g g g g g g g g \unHideNotes g d2 g \cadenzaMeasure
+    g4 d g c, g' \hideNotes g g g g g \unHideNotes g d2 d g \cadenzaMeasure
+    g4 d g c, e g \hideNotes g g g g g g \unHideNotes g d2 d g \cadenzaMeasure \fine
 }
 
 VerseOne = \lyricmode {
-    Hav -- ing be -- come a strang -- er on earth,
-    you reached the heavenly homeland, O venerable father Pa -- i -- si us.
-    You taught the faithful to lift up their minds to God,
-    Cry -- ing out to Him with all their hearts:
-    Lord Jesus Christ, Son of God have mercy on me a sin -- ner.
+    Like a much la -- bor -- ing bee, you were an elect zealot of the mon -- as -- tic life,
+    sup -- ply -- ing our souls with the writings of the Fathers, through which you guide us on the path of sal -- va -- tion.
+    There -- fore we cry out to you: Hail, truly wise Pa -- i -- si -- us,
+    for through you the tra -- di -- tion of spiritual Elders has been re -- stored to us.
     }
 
 
@@ -141,8 +137,7 @@ VerseOne = \lyricmode {
                 \line { "A" }
             }
         }}
-        % \with {midiInstrument = "choir aahs"} 
-        <<
+        \with {midiInstrument = "choir aahs"} <<
             \clef "treble"
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
@@ -154,8 +149,7 @@ VerseOne = \lyricmode {
                 \line { "B" }
             }
         }}
-        % \with {midiInstrument = "choir aahs"} 
-        <<          
+        \with {midiInstrument = "choir aahs"} <<          
             \clef "bass"
             \new Voice = "Tenor" { \voiceOne \keyTime \TenorMusic}
             \new Voice = "Bass" { \voiceTwo \BassMusic} 
