@@ -223,7 +223,9 @@ VerseTwo = \lyricmode {
 
 \book{
     \markup \vspace #2
-    \markup \wordwrap {\larger {  Priest: \ebregular{Save O God, Thy people and bless Thine inheritance.}}}
+    \markup \wordwrap {\larger {  Priest: \ebregular{Save O God, Thy people and bless Thine inheritance.
+    \footnote "*" \smaller "* During the Paschal season, we sing instead the Paschal troparion, followed by the \"Let our mouths.\""
+    }}}
     \markup \vspace #1
 
     \score {
