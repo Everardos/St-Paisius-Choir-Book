@@ -78,5 +78,8 @@ titleFont = \markup {\fill-line {
 \include "entry-of-the-theotokos.ly" \pageBreak
 \include "nativity-of-the-lord.ly" \pageBreak
 \include "theophany.ly" \pageBreak
-\include "meeting-of-the-lord.ly"
-
+\include "meeting-of-the-lord.ly" \pageBreak
+\include "annunciation.ly"
+\markup \vspace #5
+\include "lazarus-saturday.ly" \pageBreak
+\include "palm-sunday.ly"
