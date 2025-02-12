@@ -1,7 +1,12 @@
 \version "2.24.4"
 
 
-
+\paper {
+    #(define fonts
+        (set-global-fonts
+            #:roman "EB Garamond SemiBold"
+    ))
+}
 
 keyTime = { \key f \major}
 cadenzaMeasure = {
