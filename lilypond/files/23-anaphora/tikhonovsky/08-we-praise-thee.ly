@@ -14,27 +14,38 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    f'4( d) e2 f1 \cadenzaMeasure
+    f4( g) a2( g4 a bes2) a1 \cadenzaMeasure
+    a4 a d2( c4 bes a1) g4( a) a( g) f1 \cadenzaMeasure
+
+    f2 d e2. e4 f1 \cadenzaMeasure
+    f4( g) a2( g4 bes a g f2) g2 a \cadenzaMeasure
+    a4 a bes( a g a bes c bes a g2 a g1 f) \cadenzaMeasure \fine
     
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
-    \cadenzaOn
+    \cadenzaOn \arpeggioBracket
+    d'2 c f1 \cadenzaMeasure
+    d2 c( bes4 a g2) < f f'>1\arpeggio \cadenzaMeasure
+    f'4 f <bes bes,>2( <a a,>4 <g g,> f1) g2 g f1 \cadenzaMeasure
 
+    d2 d c2. c4 f1 \cadenzaMeasure
+    f2 f( g1 f2) f f \cadenzaMeasure
+    f4 f g\breve(~ g2 f g1 f) \cadenzaMeasure \fine
     
 
 }
 
 VerseOne = \lyricmode {
-    We __ praise __ Thee,
+    We __ praise Thee,
     we __ bless __ Thee,
-    we give thanks un -- to Thee, __ O __ Lord;
-    And we pray un -- to Thee, O our God.
-    And we pray __ un -- to Thee,
-    O our God.
-    And we pray __ un -- to __ Thee, __
-    O our God.
+    we give thanks __ un -- to __ Thee,
+
+    and we pray to Thee,
+    we __ pray __ to Thee,
+    O our God. __
     }
 
 

@@ -14,19 +14,21 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    a'4 a a a bes( a g2)
+    a4( bes) c( bes) a( g) a2 g4 f1 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    f'4 f f f g1
+    f2 f f f g4 f1 \cadenzaMeasure \section
 
 }
 
 VerseOne = \lyricmode {
-    A mer -- cy of peace,
-    a sac -- ri -- fice of praise.
+    A mer -- cy of peace, __
+    a __ sac -- ri -- fice of praise.
     }
 
 

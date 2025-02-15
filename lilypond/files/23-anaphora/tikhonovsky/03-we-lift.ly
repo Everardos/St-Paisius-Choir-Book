@@ -14,18 +14,18 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    a'4( bes) a( g) f( e) f( g a2) g4( a) g g f1 \cadenzaMeasure \section
 
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    f'2 f d d( f) g g4 g f1 \cadenzaMeasure \section
 }
 
 VerseOne = \lyricmode {
-    We __ lift __ them up un -- to the Lord.
+    We __ lift __ them __ up __ un -- to the Lord.
     }
 
 

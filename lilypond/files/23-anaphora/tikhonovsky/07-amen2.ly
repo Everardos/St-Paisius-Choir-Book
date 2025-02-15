@@ -14,13 +14,13 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    g'4( a bes2) a1 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    
+    g'1 f \cadenzaMeasure \section
 }
 
 VerseOne = \lyricmode {

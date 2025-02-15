@@ -15,7 +15,7 @@ SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
     
-
+    f'4( g f e f2 g) a1 \cadenzaMeasure \section
 
 }
 
@@ -23,6 +23,7 @@ BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
     
+    d'1(~ d2 c2) f1 \cadenzaMeasure \section
 }
 
 VerseOne = \lyricmode {
