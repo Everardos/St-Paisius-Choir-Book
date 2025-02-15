@@ -1,8 +1,5 @@
 \version "2.24.4"
 
-
-
-
 keyTime = { \key g \major}
 cadenzaMeasure = {
   \cadenzaOff
@@ -13,24 +10,33 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( fis) g( a) b2( a) g1 \cadenzaMeasure \section
+    \repeat volta 3 {
+    g'4 g g a b b b b \allowBreak
+    b4 b a8([ b]) c4 b2( a4 g a2) b4( a) g1 
+    \textEndMark "repeat 3x"
+    \cadenzaMeasure 
+    }
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    g'4( d) g2 g2( d) g1 \cadenzaMeasure \section
+    \repeat volta 3 {
+    g'4 g g d g g g g \allowBreak
+    g4 g a a g2( d1) e4( fis) g1 \cadenzaMeasure
+    }
+    
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, __ have mer -- cy.
+    Bless -- ed be the Name of the Lord
+    hence -- forth and __ for -- ev -- er __ more.
     }
 
 
 \score {
-    \new Staff \with {midiInstrument = "choir aahs"} 
-    <<
+    \new Staff \with {midiInstrument = "choir aahs"} <<
         \clef "treble"
         \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
         \new Voice = "Bass" { \voiceTwo \BassMusic }

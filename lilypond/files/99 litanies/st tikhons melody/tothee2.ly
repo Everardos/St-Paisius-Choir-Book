@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-
+% This is for after the our father
 
 
 keyTime = { \key g \major}
@@ -13,18 +13,18 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( fis) g( a) b2( a) g1 \cadenzaMeasure \section
+    b'4( c b a) g2 a b1 \cadenzaMeasure
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    g'4( d) g2 g2( d) g1 \cadenzaMeasure \section
+    g'1 e2 d g1 \cadenzaMeasure
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, __ have mer -- cy.
+    To __ Thee, O Lord.
     }
 
 

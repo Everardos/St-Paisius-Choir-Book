@@ -13,18 +13,18 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( fis) g( a) b2( a) g1 \cadenzaMeasure \section
+    g'4 a g( fis) e2( fis) g1 \cadenzaMeasure
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    g'4( d) g2 g2( d) g1 \cadenzaMeasure \section
+    e'4 e e2 e( d) g1 \cadenzaMeasure
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, __ have mer -- cy.
+    And with thy __ spi -- rit.
     }
 
 

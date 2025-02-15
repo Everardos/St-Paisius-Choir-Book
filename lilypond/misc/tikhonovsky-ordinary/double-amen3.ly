@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-
+% This is for after the Our Father
 
 
 keyTime = { \key g \major}
@@ -13,24 +13,25 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( fis) g( a) b2( a) g1 \cadenzaMeasure \section
+    g'4( fis g a) b2 \cadenzaMeasure
+    b4( c b a g2 a) g1 \cadenzaMeasure \fine
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    g'4( d) g2 g2( d) g1 \cadenzaMeasure \section
+    e'2.( d4) g2 \cadenzaMeasure
+    g2.( d4 e2 d) g,1 \cadenzaMeasure \fine
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, __ have mer -- cy.
+    A -- men. A -- men.
     }
 
 
 \score {
-    \new Staff \with {midiInstrument = "choir aahs"} 
-    <<
+    \new Staff \with {midiInstrument = "choir aahs"} <<
         \clef "treble"
         \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
         \new Voice = "Bass" { \voiceTwo \BassMusic }

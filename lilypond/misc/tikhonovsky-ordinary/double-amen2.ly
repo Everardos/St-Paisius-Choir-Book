@@ -13,24 +13,25 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( fis) g( a) b2( a) g1 \cadenzaMeasure \section
+    b'2 b1 \cadenzaMeasure
+    b4( c b a g2 a) b1 \cadenzaMeasure \fine
 }
 
 BassMusic   = \relative {
-    \cadenzaOn
-    g'4( d) g2 g2( d) g1 \cadenzaMeasure \section
+    \cadenzaOn \arpeggioBracket
+    g'2 g1 \cadenzaMeasure
+    g1( e2 d) <g g,>1\arpeggio
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, __ have mer -- cy.
+    A -- men. A -- men.
     }
 
 
 \score {
-    \new Staff \with {midiInstrument = "choir aahs"} 
-    <<
+    \new Staff \with {midiInstrument = "choir aahs"} <<
         \clef "treble"
         \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
         \new Voice = "Bass" { \voiceTwo \BassMusic }
