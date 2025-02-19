@@ -24,8 +24,8 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-
-    a'4 \hideNotes a a a a a a a a \unHideNotes a g a2 a4 a2  \cadenzaMeasure \bar ":|." \textEndMark \markup{\ebItalic "twice"}
+    a'2 a1 \cadenzaMeasure \bar ".|:"
+    a4 \hideNotes a a a a a a a a \unHideNotes a g a2 a4 a2  \cadenzaMeasure \bar ":|." \textEndMark \markup{\ebItalic "twice"}
     a4 \hideNotes a a a a a a a a \unHideNotes a g a4 bes2 bes a1 \cadenzaMeasure \fine
     
 
@@ -37,7 +37,8 @@ SopMusic    = \relative {
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f'4 \hideNotes f f f f f f f f \unHideNotes f d f2 f4 f2 \cadenzaMeasure
+    f'2 f1 \cadenzaMeasure
+    f4 \hideNotes f f f f f f f f \unHideNotes f d f2 f4 f2 \cadenzaMeasure
     f4 \hideNotes f f f f f f f f \unHideNotes f d f4 f2 e f1 \cadenzaMeasure \fine
 
     %f'4 f f f2 d4 f f2 e4 e f2 \cadenzaMeasure \section
@@ -47,7 +48,8 @@ AltoMusic   = \relative {
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    c'4 \hideNotes c c c c c c c c \unHideNotes c bes c2 c4 c2 \cadenzaMeasure \bar ":|."
+    c'2 c1 \cadenzaMeasure \bar ".|:"
+    c4 \hideNotes c c c c c c c c \unHideNotes c bes c2 c4 c2 \cadenzaMeasure \bar ":|."
     c4 \hideNotes c c c c c c c c \unHideNotes c bes c d2 c c1 \cadenzaMeasure \fine
 
     %c'4 c c c2 bes4 c d2 c4 c c2 \cadenzaMeasure \section
@@ -56,6 +58,7 @@ TenorMusic  = \relative {
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
+    f2 f1 \cadenzaMeasure
     f4 \hideNotes f f f f f f f f \unHideNotes f g f2 f4 f2 \cadenzaMeasure
     f4 \hideNotes f f f f f f f f \unHideNotes f g f bes,2 c f1 \cadenzaMeasure
 
@@ -63,6 +66,7 @@ BassMusic   = \relative {
 }
 
 VerseOne = \lyricmode {
+    A -- men.
     Bless -- ed be the name of the Lord henceforth and for -- ev -- er more.
     Bless -- ed be the name of the Lord hence -- forth and for -- ev -- er more.
     }

@@ -39,8 +39,8 @@ VerseThree = \lyricmode {
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic \bar "|"}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
-            \new Lyrics \lyricsto "Sop" { \VerseTwo }
-            \new Lyrics \lyricsto "Sop" { \VerseThree }
+            %\new Lyrics \lyricsto "Sop" { \VerseTwo }
+            %\new Lyrics \lyricsto "Sop" { \VerseThree }
         >>
         \new Staff \with {midiInstrument = "choir aahs"} <<
             \clef "bass"

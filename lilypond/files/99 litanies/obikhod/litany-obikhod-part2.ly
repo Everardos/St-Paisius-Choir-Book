@@ -20,7 +20,7 @@ TenorMusic  = \relative {c'4  c4 c2 c1}
 BassMusic   = \relative {f4  f4 <<c2 g'2>> f1}
 
 VerseOne = \lyricmode {
-    Lord have mer -- cy
+    Lord, have mer -- cy.
     }
 VerseTwo = \lyricmode {
     \override LyricText.font-size = #'-1
@@ -39,8 +39,8 @@ VerseThree = \lyricmode {
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic \bar "|"}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
-            \new Lyrics \lyricsto "Sop" { \VerseTwo }
-            \new Lyrics \lyricsto "Sop" { \VerseThree }
+            %\new Lyrics \lyricsto "Sop" { \VerseTwo }
+            %\new Lyrics \lyricsto "Sop" { \VerseThree }
         >>
         \new Staff \with {midiInstrument = "choir aahs"} <<
             \clef "bass"
