@@ -124,7 +124,7 @@ BassMusic   = \relative {
 VerseOne = \lyricmode {
     Like a much la -- bor -- ing bee, you were an elect zealot of the mon -- as -- tic life,
     sup -- ply -- ing our souls with the writings of the Fathers, through which you guide us on the path of sal -- va -- tion.
-    There -- fore we cry out to you: Hail, truly wise Pa -- i -- si -- us,
+    There -- fore we cry out to you: Rejoice, truly wise Pa -- i -- si -- us,
     for through you the tra -- di -- tion of spiritual Elders has been re -- stored to us.
     }
 
