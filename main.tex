@@ -1,4 +1,4 @@
-\documentclass[letterpaper, 14pt]{memoir}
+\documentclass[letterpaper, 12pt]{memoir}
 \usepackage{tabto}
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
@@ -12,7 +12,8 @@
 \usepackage{graphicx}
 \usepackage{microtype}
 \usepackage{marginnote}
-\usepackage{lyluatex} 
+\usepackage{lyluatex}
+\usepackage{epigraph}
 \usepackage{iftex}
 \ifluatex
   \usepackage[no-math]{fontspec}
@@ -54,7 +55,10 @@
 \newcommand{\reader}{\mdseries \item[\textbf{Reader}]}
 \newcommand{\people}{\normalfont\bfseries \item[\textbf{\textsc{people}}]}
 
-
+\renewcommand{\epigraphflush}{center}
+\renewcommand{\epigraphsize}{\footnotesize}
+\setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{3in}
 
 % Other commands
 \newcommand{\rubric}[1]{{\normalfont\color{Red1}\itshape{#1}}}
@@ -115,7 +119,8 @@
 
 \begin{document}
 \pagestyle{plain}
-
+    \input{00-C-prayerforsingers.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{00-D-romanianliturgybeginning.tex} \newpage
     \input{01-greatlitany.tex}\newpage
     % \input{02-firstantiphon.tex} \newpage
     \input{03-littlelitany1.tex} \newpage
