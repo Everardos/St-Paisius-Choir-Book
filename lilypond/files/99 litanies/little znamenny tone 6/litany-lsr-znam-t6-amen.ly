@@ -2,11 +2,6 @@
 
 
 \paper {
-    #(set-paper-size "letter")
-    page-breaking = #ly:optimal-breaking
-    ragged-last-bottom = ##t
-    right-margin = 17\mm
-    left-margin = 17\mm
     #(define fonts
         (set-global-fonts
             #:roman "EB Garamond SemiBold"

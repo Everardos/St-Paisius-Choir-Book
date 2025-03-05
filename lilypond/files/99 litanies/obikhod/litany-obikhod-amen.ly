@@ -1,11 +1,6 @@
 \version "2.24.4"
 
 \paper {
-    #(set-paper-size "letter")
-    page-breaking = #ly:optimal-breaking
-    ragged-last-bottom = ##t
-    right-margin = 17\mm
-    left-margin = 17\mm
     #(define fonts
         (set-global-fonts
             #:roman "EB Garamond SemiBold"
@@ -59,7 +54,7 @@ VerseThree = \lyricmode {
         }
         \context {
             \Score
-            \override SpacingSpanner.spacing-increment = 5
+            \override SpacingSpanner.spacing-increment = 3
         }
         \context {
             \Lyrics
