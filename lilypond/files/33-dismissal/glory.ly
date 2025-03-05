@@ -94,6 +94,7 @@ VerseOne = \lyricmode {
         >>
     >>
       \layout {
+        ragged-last = ##t
         \context {
             \Score
                 \omit BarNumber

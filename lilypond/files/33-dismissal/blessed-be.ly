@@ -24,7 +24,7 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    a'2 a1 \cadenzaMeasure \bar ".|:"
+    a'2 a1 \cadenzaMeasure \noBreak \bar ".|:"
     a4 \hideNotes a a a a a a a a \unHideNotes a g a2 a4 a2  \cadenzaMeasure \bar ":|." \textEndMark \markup{\ebItalic "twice"}
     a4 \hideNotes a a a a a a a a \unHideNotes a g a4 bes2 bes a1 \cadenzaMeasure \fine
     
@@ -87,6 +87,7 @@ VerseOne = \lyricmode {
         >>
     >>
       \layout {
+        ragged-last = ##t
         \context {
             \Score
                 \omit BarNumber
