@@ -11,7 +11,7 @@
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#1P" 
+    \fontsize #14 "#1o" 
      }
 
 
@@ -111,13 +111,13 @@ titleFont = \markup {\fill-line {
 \include "05-sanctus.ly"
 
 \markup \vspace #1
-\markup \wordwrap {\larger {  Priest: \ebregular{Take, eat: this is My Body, which is broken for you for the remission of sins.}}}
+\markup \wordwrap {\larger {  Priest: \ebregular{He gave it to His holy disciples and apostles, saying: Take, eat: this is My Body, which is broken for you for the remission of sins.}}}
 \markup \vspace #1
 
 \include "06-amen1.ly"
 
 \markup \vspace #1
-\markup \wordwrap {\larger {  Priest: \ebregular{Drink of it, all of you: this is My Blood of the New Testament, which is shed for you and for many, for the remission of sins.}}}
+\markup \wordwrap {\larger {  Priest: \ebregular{He gave it to His holy disciples and apostles, saying: Drink of it, all of you: this is My Blood of the New Testament, which is shed for you and for many, for the remission of sins.}}}
 \markup \vspace #1
 
 \include "07-amen2.ly"

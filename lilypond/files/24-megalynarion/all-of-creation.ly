@@ -13,7 +13,7 @@ keyTime = { \key d \major}
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#1P" 
+    \fontsize #14 "#1p" 
      }
 
 

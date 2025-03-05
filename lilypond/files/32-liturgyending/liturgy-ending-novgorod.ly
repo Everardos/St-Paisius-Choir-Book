@@ -13,7 +13,7 @@ keyTime = { \key g \major}
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#1T" 
+    \fontsize #14 "#1S" 
 }
 
 layoutVariable = \layout {
