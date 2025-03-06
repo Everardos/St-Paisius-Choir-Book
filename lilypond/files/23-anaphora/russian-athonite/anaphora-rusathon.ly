@@ -11,7 +11,7 @@
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#2O" 
+    \fontsize #14 "#1P" 
      }
 
 
@@ -104,9 +104,12 @@ titleFont = \markup {\fill-line {
 
 \include "04-it-is-meet-rusathon.ly"
 
+\pageBreak
+
 \markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Singing the triumphal hymn, shouting, crying aloud and saying:}}}
 \markup \vspace #1
+
 
 \include "05-sanctus-rusathon.ly"
 

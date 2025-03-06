@@ -11,7 +11,7 @@
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#1o" 
+    \fontsize #14 "#3O" 
      }
 
 

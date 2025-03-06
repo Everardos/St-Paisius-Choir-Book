@@ -104,6 +104,8 @@ titleFont = \markup {\fill-line {
 
 \include "04-it-is-meet.ly"
 
+\pageBreak
+
 \markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Singing the triumphal hymn, shouting, crying aloud and saying:}}}
 \markup \vspace #1
@@ -121,6 +123,8 @@ titleFont = \markup {\fill-line {
 \markup \vspace #1
 
 \include "07-amen2.ly"
+
+\pageBreak
 
 \markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Offering unto Thee Thine own of Thine own, in behalf of all and for all.}}}
