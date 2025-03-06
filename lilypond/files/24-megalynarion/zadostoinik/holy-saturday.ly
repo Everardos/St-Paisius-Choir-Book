@@ -25,40 +25,42 @@ SopMusic    = \relative {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    g'4 g g8([ a] b4) a2 \cadenzaMeasure
-    a4 \hideNotes a a a a \unHideNotes a g fis2( e4) fis g2. \cadenzaMeasure
-    a8([ b]) c2 b4 b b b  b4.( a8 g[ a]) b4 a2 \cadenzaMeasure
-    a4 \hideNotes a a a \unHideNotes a \break a g fis2( e4) fis g2 \cadenzaMeasure
-    g4 g a8([ b]) c2 b4 \hideNotes b \unHideNotes b b4.( a8) g([ a]) b4 \break a2 \cadenzaMeasure
-    a4 g fis8([ g] a4 g) fis g1 \cadenzaMeasure \fine
+    g'4 \hideNotes g g g \unHideNotes g g8([ a] b4) a2 \cadenzaMeasure
+    a4 g fis2 e4 fis g2. \cadenzaMeasure
+    a8([ b]) c2 b4 \hideNotes b b \unHideNotes b  b4.( a8)  g([ a]) b4 a2 \cadenzaMeasure
+    g4 fis2 e4 fis g2 \cadenzaMeasure
+    g4 a8([ b]) c2 b4 \hideNotes b b b \unHideNotes b b4.( a8) g([ a]) b4 a2 \cadenzaMeasure
+    a4 \hideNotes a a a \unHideNotes a b a a a g fis8([ g] a4) g fis g1 \cadenzaMeasure \fine
 }
+
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    e'4 e e8([ d] g4) d2 \cadenzaMeasure
-    d4 \hideNotes d d d d \unHideNotes d e b2. b4 e2. \cadenzaMeasure
-    e4 a( fis) g g g g g4.( d8 e[ d]) g4 d2 \cadenzaMeasure
-    d4 \hideNotes d d d \unHideNotes d d e b2. b4 e2 \cadenzaMeasure
-    e4 e e a( fis) g \hideNotes g \unHideNotes g g4.( d8) e([ d]) g4 d2 \cadenzaMeasure
-    d4 e b2. b4 e1 \cadenzaMeasure \fine
+    e'4 \hideNotes e e e \unHideNotes e e8([ d] g4) d2 \cadenzaMeasure
+    d4 e b2 b4 b e2. \cadenzaMeasure
+    e4 a( fis) g \hideNotes g g \unHideNotes g g4.( d8) e([ d]) g4 d2 \cadenzaMeasure
+    e4 b2 b4 b e2 \cadenzaMeasure
+    e4 e a( fis) g \hideNotes g g g \unHideNotes g g4.( d8) e([ d]) g4 d2 \cadenzaMeasure
+    d4 \hideNotes d d d \unHideNotes d g d d d e b2 b4 b e1 \cadenzaMeasure \fine
     
 }
 
+
 VerseOne = \lyricmode {
-    Come, O faith -- ful,
-    let us enjoy the Master's hos -- pi -- tal -- i -- ty:
-    the __ ban -- quet of im -- mor -- tal -- i -- ty
-    in the upper cham -- ber with up -- lift -- ed minds.
-    Let us re -- ceive __ the exalt -- ed words __ of __ the Word,
-    whom we mag -- ni - fy.
+    Do not lament me, O Moth -- er,
+    see -- ing me in the tomb,
+    the __ Son __ con -- ceived in the womb __ with -- out seed,
+    for I shall a -- rise
+    and be __ glo -- ri -- fied with eter -- nal glo -- ry __ as God;
+    I shall exalt all who mag -- ni -- fy thee in faith __ and in love.
     }
 
 
 
 \score {
     \header {
-        piece = \markup {\large \italic "Holy Thursday, Tone 6"}
+        piece = \markup {\large \italic "Holy Saturday, Tone 6"}
     }
     \new Staff
     % \with {midiInstrument = "choir aahs"} 
