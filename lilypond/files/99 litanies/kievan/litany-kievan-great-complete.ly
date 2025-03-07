@@ -13,21 +13,21 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    f'2 f1 \cadenzaMeasure \bar "."
-    f4 f e8([ f] g2) f1 \cadenzaMeasure \section
-    f2( g4) a g( a8[ bes] a4 g) f1 \cadenzaMeasure \section
-    a2 a4 bes2( a4 g) f1 \cadenzaMeasure \bar "."
+    f'2 f1 \cadenzaMeasure \section
+    \textMark "1" f4 f e8([ f] g2) f1 \cadenzaMeasure
+    \textMark "2" f2( g4) a g( a8[ bes] a4 g) f1 \cadenzaMeasure
+    \textMark "3" a2 a4 bes2( a4 g) f1 \cadenzaMeasure \section
     a4 bes2( a4) g2 f1 \cadenzaMeasure \section
     a2 bes( a4 g1 f) \cadenzaMeasure \fine
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    f'2 f1 \cadenzaMeasure \bar "."
-    f4 f c2. f1 \cadenzaMeasure \section
-    f2. f4 c1 f \cadenzaMeasure \section
-    f2 f4 bes,2( c) f1 \cadenzaMeasure \bar "."
-    f4 bes,2( f'4) c2 f1 \cadenzaMeasure \section
+    f'2 f1 \cadenzaMeasure
+    f4 f c2. f1 \cadenzaMeasure
+    f2. f4 c1 f \cadenzaMeasure
+    f2 f4 bes,2( c) f1 \cadenzaMeasure
+    f4 bes,2( f'4) c2 f1 \cadenzaMeasure
     f2 bes,2( f'4 c1 f) \cadenzaMeasure \fine
 
 }
@@ -45,6 +45,9 @@ VerseOne = \lyricmode {
 
 
 \score {
+    \header {
+        piece = \markup {\large \italic "2. Kievan"}
+    }
     \new Staff \with {midiInstrument = "choir aahs"} <<
         \clef "treble"
         \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}

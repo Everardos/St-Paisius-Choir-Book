@@ -15,11 +15,11 @@ SopMusic    = \relative {
     \cadenzaOn
     a'2 a1 \cadenzaMeasure \section
 
-    a2( g4) f g( a) f1 \cadenzaMeasure
-    a2( g4) a bes( c) a1 \cadenzaMeasure
-    c4( a bes) c d2 c1 \cadenzaMeasure
-    d4( c bes) a bes( c) a1 \cadenzaMeasure
-    c2( g4) a bes( g) f1 \cadenzaMeasure \section
+    \textMark "1" a2( g4) f g( a) f1 \cadenzaMeasure
+    \textMark "2" a2( g4) a bes( c) a1 \cadenzaMeasure
+    \textMark "3" c4( a bes) c d2 c1 \cadenzaMeasure
+    \textMark "4" d4( c bes) a bes( c) a1 \cadenzaMeasure
+    \textMark "5" c2( g4) a bes( g) f1 \cadenzaMeasure \section
 
     c'4 g( a bes) g f1 \cadenzaMeasure \section
     a2 a1 \cadenzaMeasure \fine
@@ -55,6 +55,9 @@ VerseOne = \lyricmode {
 
 
 \score {
+    \header {
+        piece = \markup {\large \italic "3. Romanian"}
+    }
     \new Staff \with {midiInstrument = "choir aahs"} 
     <<
         \clef "treble"
