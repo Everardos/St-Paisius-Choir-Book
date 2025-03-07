@@ -10,7 +10,7 @@
 bindernumber = \markup {
     \override #'(font-name . "Goudy Old Style Bold")
 
-    \fontsize #14 "#1P" 
+    \fontsize #14 "#3p" 
      }
 
 
@@ -79,7 +79,13 @@ titleFont = \markup {\fill-line {
 \include "nativity-of-the-lord.ly" \pageBreak
 \include "theophany.ly" \pageBreak
 \include "meeting-of-the-lord.ly" \pageBreak
-\include "annunciation.ly"
-\markup \vspace #5
+\include "annunciation.ly" \markup \vspace #5
 \include "lazarus-saturday.ly" \pageBreak
-\include "palm-sunday.ly"
+\include "palm-sunday.ly" \markup \vspace #5
+\include "holy-thursday.ly" \pageBreak
+\include "holy-saturday.ly" \markup \vspace #5
+\include "mid-pentecost.ly" \pageBreak
+\include "ascension.ly" \markup \vspace #5
+\include "pentecost.ly" \pageBreak
+\include "transfiguration.ly" \markup \vspace #5
+\include "dormition.ly"

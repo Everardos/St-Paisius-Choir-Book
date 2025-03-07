@@ -27,10 +27,10 @@ SopMusic    = \relative {
     \cadenzaOn
     g'4 \hideNotes g g g \unHideNotes g g8([ a] b4) a2 \cadenzaMeasure
     a4 g fis2 e4 fis g2. \cadenzaMeasure
-    a8([ b]) c2 b4 \hideNotes b b \unHideNotes b  b4.( a8)  g([ a]) b4 a2 \cadenzaMeasure
+    a8([ b]) \break c2 b4 \hideNotes b b \unHideNotes b  b4.( a8)  g([ a]) b4 a2 \cadenzaMeasure
     g4 fis2 e4 fis g2 \cadenzaMeasure
-    g4 a8([ b]) c2 b4 \hideNotes b b b \unHideNotes b b4.( a8) g([ a]) b4 a2 \cadenzaMeasure
-    a4 \hideNotes a a a \unHideNotes a b a a a g fis8([ g] a4) g fis g1 \cadenzaMeasure \fine
+    g4 \break a8([ b]) c2 b4 \hideNotes b b b \unHideNotes b b4.( a8) g([ a]) b4 a2 \cadenzaMeasure
+    a4 \hideNotes a a a \unHideNotes a \break b a a a g fis8([ g] a4) g fis g1 \cadenzaMeasure \fine
 }
 
 
