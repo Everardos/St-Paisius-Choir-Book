@@ -14,6 +14,7 @@
 \usepackage{marginnote}
 \usepackage{lyluatex}
 \usepackage{epigraph}
+\usepackage{mwe}
 \usepackage{iftex}
 \ifluatex
   \usepackage[no-math]{fontspec}
@@ -118,9 +119,11 @@
 
 
 \begin{document}
-\pagestyle{plain}
+    \pagestyle{plain}
+    \frontmatter
     \input{00-C-prayerforsingers.tex} \newpage\null\thispagestyle{empty}\newpage
     \input{00-D-romanianliturgybeginning.tex} \newpage
+    \mainmatter
     \input{01-greatlitany.tex}\newpage %pg 8 end
     % \input{02-firstantiphon.tex} \newpage
     \input{03-littlelitany1.tex} \newpage 
