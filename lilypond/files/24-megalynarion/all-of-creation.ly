@@ -163,6 +163,7 @@ VerseOne = \lyricmode {
     >>
         
     \layout {
+        ragged-last = ##t
         \context {
             \Staff
                 \remove Time_signature_engraver

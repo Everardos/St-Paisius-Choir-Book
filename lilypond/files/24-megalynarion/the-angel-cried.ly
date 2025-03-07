@@ -86,48 +86,48 @@ SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     
-    a'4 a2( fis g) a b4( a b g a2) b4 cis d2 cis \allowBreak b2. b4 a2. \cadenzaMeasure
-    a4 a1( e2) fis g fis4 fis e1 d2. \cadenzaMeasure
-    fis4 a2. fis4 g2 a b4( a b g a2.) \cadenzaMeasure
-    a4 a2. a4 e2 fis \allowBreak g fis e d4( fis) e2 e d1 b'2\rest \cadenzaMeasure
+    a'4 \cadenzaMeasure a2( fis g) a b4( a b g a2) b4 cis d2 cis \break b2. b4 a2.
+    a4 \cadenzaMeasure a1( e2) fis g fis4 fis e1 d2. \break
+    fis4 \cadenzaMeasure a2. fis4 g2 a b4( a b g a2.)
+    a4 \cadenzaMeasure a2. a4 e2 fis \break g fis e d4( fis) e2 e d1 b'2\rest
 
-    a4 a b( a b g) \allowBreak a2 b4( cis) d2( cis) b2. b4 a2. \cadenzaMeasure
-    a4 a2. fis4 g2 fis4 fis e1 d \cadenzaMeasure \section
-    a'2( fis g a) b4( a b g a1) \cadenzaMeasure
-    a2( b4 cis) d2( cis) b a d4( cis) b2 a2. \cadenzaMeasure
+    a4 a \cadenzaMeasure b( a b g) \break a2 b4( cis) d2( cis) b2. b4 a2. 
+    a4 \cadenzaMeasure a2. fis4 g2 fis4 \break fis e1 d \cadenzaMeasure \section
+    a'2( fis g a) b4( a b g a1) \cadenzaMeasure \break
+    a2( b4 cis) d2( cis) b a d4( cis) b2 a2.
 
-    a4 a2. fis4 \allowBreak g2 a b4( a b g a2.) \cadenzaMeasure
-    a4 a2.( fis4 g2 fis e) e d2. \cadenzaMeasure
-    a'4 a2( b4 cis) d2 cis b1( a) \cadenzaMeasure
-    a1 e2( fis) g2 fis \allowBreak e1 d2. \cadenzaMeasure
+    a4 \cadenzaMeasure a2. fis4 g2 \break a b4( a b g a2.)
+    a4 \cadenzaMeasure a2.( fis4 g2 fis e) e d2. \break
+    a'4 \cadenzaMeasure a2( b4 cis) d2 cis b1( a) \cadenzaMeasure
+    a1 e2( fis) g2 fis \break e1 d2.
 
-    a'4 b( a b) g a1 a2( b4 cis) d2( cis) \allowBreak b2 a d4( cis b2) a1 \cadenzaMeasure
-    a2. fis4 g2 a b4( a b g) a2. \cadenzaMeasure
-    a4 a2. fis4 g2 fis e2. e4 d1 \cadenzaMeasure \fine
+    a'4 \cadenzaMeasure b( a b) g a1 a2( b4 cis) d2( cis) \break b2 a d4( cis b2) a1 \cadenzaMeasure
+    a2. fis4 g2 a b4( a b g) a2.
+    a4 \cadenzaMeasure \break a2. fis4 g2 fis e2. e4 d1 \cadenzaMeasure \fine
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     
-    d'4 d1. d2 d1. d4 d d2 fis g2. g4 d2. \cadenzaMeasure
-    d4 a1. a2 a a4 a a1 d2. \cadenzaMeasure
-    d4 d2. d4 d2 d d1( d2.) \cadenzaMeasure
-    d4 a2. a4 a2 a a2 a a a a a d1 s2 \cadenzaMeasure
+    d'4 \cadenzaMeasure d1. d2 d1. d4 d d2 fis g2. g4 d2.
+    d4 \cadenzaMeasure a1. a2 a a4 a a1 d2.
+    d4 \cadenzaMeasure d2. d4 d2 d d1( d2.) 
+    d4 \cadenzaMeasure a2. a4 a2 a a2 a a a a a d1 s2
     
-    d4 d d1 d2 d d( fis) g2. g4 d2. \cadenzaMeasure
-    d4 d2. d4 a2 a4 a a1 d1 \cadenzaMeasure \section
+    d4 d \cadenzaMeasure d1 d2 d d( fis) g2. g4 d2.
+    d4 \cadenzaMeasure d2. d4 a2 a4 a a1 d1 \cadenzaMeasure \section
     d1~ d d~ d \cadenzaMeasure
-    d1 d2( fis) g d d d d2. \cadenzaMeasure
+    d1 d2( fis) g d d d d2.
 
-    d4 d2. d4 d2 d d1( d2.) \cadenzaMeasure
-    d4 d1( a1.) a2 d2. \cadenzaMeasure
-    d4 d1 d2 fis g1( d) \cadenzaMeasure
-    a1 a a2 a a1 d2. \cadenzaMeasure
+    d4 \cadenzaMeasure d2. d4 d2 d d1( d2.)
+    d4 \cadenzaMeasure d1( a1.) a2 d2.
+    d4 \cadenzaMeasure d1 d2 fis g1( d) \cadenzaMeasure
+    a1 a a2 a a1 d2. 
 
-    d4 d2. d4 d1 d d2( fis) g d d1 d \cadenzaMeasure
-    d2. d4 d2 d d1 d2. \cadenzaMeasure
-    d4 d2. d4 a2 a a2. a4 d1 \cadenzaMeasure \fine
+    d4 \cadenzaMeasure d2. d4 d1 d d2( fis) g d d1 d \cadenzaMeasure
+    d2. d4 d2 d d1 d2.
+    d4 \cadenzaMeasure d2. d4 a2 a a2. a4 d1 \cadenzaMeasure \fine
 }
 
 VerseOne = \lyricmode {
@@ -163,6 +163,11 @@ VerseOne = \lyricmode {
     >>
         
     \layout {
+        ragged-last = ##t
+        \context {
+            \Score
+                \omit BarNumber
+        }
         \context {
             \Staff
                 \remove Time_signature_engraver

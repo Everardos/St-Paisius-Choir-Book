@@ -95,7 +95,7 @@ SopMusic    = \relative {
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    f'4 f c f( bes,) c c d4. c8 \cadenzaMeasure
+    f'4 f c f( bes,) c c d4.( c8) \cadenzaMeasure
     bes4 bes c2 f4 f f bes, c c f1 \cadenzaMeasure \section
     f4 c f( bes, c2) d4.( c8) \cadenzaMeasure
     bes4 bes c2 f f4 bes,4 c2 f1 \cadenzaMeasure \fine

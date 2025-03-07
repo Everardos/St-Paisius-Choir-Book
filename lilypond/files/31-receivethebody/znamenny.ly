@@ -137,6 +137,7 @@ VerseOne = \lyricmode {
     >>
         
     \layout {
+        ragged-last = ##t
         \context {
             \Staff
                 \remove Time_signature_engraver
@@ -146,7 +147,7 @@ VerseOne = \lyricmode {
         }
         \context {
             \Score
-            \override SpacingSpanner.spacing-increment = 2
+            \override SpacingSpanner.spacing-increment = 3
         }
         \context {
             \Lyrics
