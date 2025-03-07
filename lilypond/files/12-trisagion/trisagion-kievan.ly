@@ -85,16 +85,16 @@ SopMusic    = \relative {
     \cadenzaOn
 
     g'2 g \cadenzaMeasure \bar ".|:"
-        \textMark \markup { \italic "thrice" }
     g4( a b) g fis1 \cadenzaMeasure
     fis4( g a) fis g2 g \cadenzaMeasure \break
     a4( b) c a b2 a4 \cadenzaMeasure
     g4 a2 g4 fis g1 \cadenzaMeasure \bar ":|."
-
+        \textEndMark \markup { \italic \small "thrice" }
     g4 \hideNotes \repeat unfold 6 {g} \unHideNotes g \break g \hideNotes g g g \unHideNotes g g2 fis \cadenzaMeasure
     fis4 \hideNotes \repeat unfold 7 {fis} \unHideNotes fis g2 g4 \break g g2 \cadenzaMeasure
     a4( b) c a b2 a4 \cadenzaMeasure
     g4 a2 g4 fis g1 \cadenzaMeasure \fine
+        \textEndMark \markup { \italic \small "Holy God..." }
 }
 
 AltoMusic   = \relative {
