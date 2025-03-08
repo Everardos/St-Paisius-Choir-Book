@@ -28,6 +28,21 @@ refrain = {
     \section
 }
 
+refrainLineEnd = {
+    \stopStaff
+     \hideNotes bes8\rest \unHideNotes
+    \once \override Rest.stencil =
+          #(lambda (grob)
+             (grob-interpret-markup grob #{
+               \markup  \italic \small "Refrain"
+               #}))
+    f1\rest
+    % \hideNotes bes1\rest \unHideNotes
+    \cadenzaMeasure \break
+    \once \override Score.BarLine.stencil = ##f
+    \startStaff
+}
+
 refrainBlank = {
     \hideNotes r8 r1 \unHideNotes
     \cadenzaMeasure
@@ -51,33 +66,39 @@ SopMusic    = \relative {
     \cadenzaOn
 
     \textMark "1."
-    f'4 g a a bes2 bes a \cadenzaMeasure
-    f4 g a f g2 g f \cadenzaMeasure \bar "."
+    f'4 f g a g a bes2 bes a \cadenzaMeasure
+    f4 a a a \break a f g2 f \cadenzaMeasure \bar "."
 
     \textMark \markup { \italic \small "Refrain" }
-    f4 g a2 a4 a g a bes2 a4( bes) a( g) f2 g a( g) f1 \cadenzaMeasure \bar"."
+    f4 g a2 a4 a g a bes2 \break a4( bes) a( g) f2 g a( g) f1 \cadenzaMeasure \bar"."
 
     \textMark "2."
-    f4 g a a g a bes2 bes a \cadenzaMeasure
-    f4 g a a f g2 f \cadenzaMeasure \section
+    f4 a a a g a \break bes2 bes a \cadenzaMeasure
+    a4 \hideNotes a a a a a \unHideNotes a f g2 g4 g f2 \cadenzaMeasure \section \noBreak
 
-    \stub \refrain
+    \refrainLineEnd
 
     \textMark "3."
-    f4 g a \hideNotes a a a   a a \unHideNotes a g a bes1 a2 \cadenzaMeasure
-    f4 g a f g2 g f \cadenzaMeasure \section
+    f4 a a g a bes2 bes a \cadenzaMeasure
+    f4 a a a f \break g2 g f \cadenzaMeasure \section
 
     \refrain
 
     \textMark "4."
-    f4 a a g a \break bes2 bes4 bes4 a2 \cadenzaMeasure
-    f4 a f g2 g f \cadenzaMeasure \section
+    f4 a a a g a bes1 a2 \cadenzaMeasure
+    f4 g a a f g2 g4 g f2 \cadenzaMeasure \section 
 
     \refrain
 
     \textMark "5."
-    f4 f f g \break a \hideNotes a a a   a a a   a \unHideNotes a g a bes1 a2 \cadenzaMeasure \noBreak
-    f4 f g a a a \break a \hideNotes a a a \unHideNotes a f g2 g4 g f2 \cadenzaMeasure \section
+    f4 g a g \break a bes2 bes4 bes bes a2 \cadenzaMeasure
+    f4 g a a f g2 f \cadenzaMeasure \section 
+
+    \refrainLineEnd
+
+    \textMark "6."
+    f4 f f g a \hideNotes a a a   a a a   a \unHideNotes a g a bes1 a2 \cadenzaMeasure
+    f4 f g a a a a \hideNotes a a a \unHideNotes a f g2 g4 g f2 \cadenzaMeasure \section
 
     \refrainEnd
 
@@ -89,32 +110,37 @@ BassMusic   = \relative {
     \cadenzaOn
 
     %1
-    f'4 f f f bes,2 d f \cadenzaMeasure
-    f4 f f f c2 c f \cadenzaMeasure
+    f'4 f f f f f bes,2 d f \cadenzaMeasure
+    f4 f f f f f c2 f \cadenzaMeasure
 
     %Refrain
     f4 f f2 f4 f f f bes,2 f' f f d c1 f \cadenzaMeasure
 
     %2
-    f4 f f f f f bes,2 d f \cadenzaMeasure
-    f4 f f f f c2 f \cadenzaMeasure
+    f4 f f f f f   bes,2 d f \cadenzaMeasure
+    f4 \hideNotes f f f f f \unHideNotes f f c2 c4 c f2 \cadenzaMeasure
 
-    \stub
     \refrainBlank
 
     %3
-    f4 f f \hideNotes f f f f f \unHideNotes f f f bes,2( d) f \cadenzaMeasure
-    f4 f f f c2 c f \cadenzaMeasure
+    f4 f f f f bes,2 d f \cadenzaMeasure
+    f4 f f f f  c2 c f \cadenzaMeasure
 
     \refrainBlank
 
     %4
-    f4 f f f f bes,2 bes4 d f2 \cadenzaMeasure
-    f4 f f c2 c f \cadenzaMeasure
+    f4 f f f f f bes,2( d) f \cadenzaMeasure
+    f4 f f f f c2 c4 c f2 \cadenzaMeasure
 
     \refrainBlank
 
     %5
+    f4 f f f   f bes,2 bes4 bes d f2 \cadenzaMeasure
+    f4 f f f f c2 f \cadenzaMeasure
+
+    \refrainBlank
+
+    %6
     f4 f f f f \hideNotes f f f   f f f   f \unHideNotes f f f bes,2( d) f2 \cadenzaMeasure
     f4 f f f f f f \hideNotes f f f \unHideNotes f f c2 c4 c f2\cadenzaMeasure 
 
@@ -123,19 +149,22 @@ BassMusic   = \relative {
 }
 
 VerseOne = \lyricmode {
-    God, my God, at -- tend to me!
-    Why hast Thou for -- sak -- en me?
+    I love the Lord be -- cause He has heard
+    the voice of my sup -- li -- ca -- tion.
 
     Through the prayers of the The -- o -- to -- kos, __ O __ Sav -- ior, save __ us.
 
-    Why art Thou so far from help -- ing me,
-    from the words of my groan -- ing?
+    Be -- cause He in -- clined His ear to me,
+    there -- fore I will call on Him as long as I live.
 
-    O my God, I cry by day, but Thou dost not an -- swer;
-    and by night, but find no rest.
+    The snares of death en -- com -- passed me,
+    the pangs of hell laid hold on me.
 
-    Thou dwell -- est in the sanc -- tu -- ar -- y,
-    the praise of Is -- ra -- el.
+    I suf -- fered dis -- tress and an -- guish,
+    so I called on the name of the Lord.
+
+    I will walk in the pres -- ence of the Lord,
+    in the land of the liv -- ing.
 
     Glo -- ry to the Fa -- ther and to the Son and to the Ho -- ly Spir -- it,
     both now and ev -- er and un -- to the ag -- es of ag -- es. A -- men.
@@ -145,7 +174,7 @@ VerseOne = \lyricmode {
 
 \score {
     \header {
-        piece = \markup {\large \italic "Sept. 14: Exaltation of the Cross"}
+        piece = \markup {\large \italic "Palm Sunday"}
     }
     \new Staff
     % \with {midiInstrument = "choir aahs"} 
