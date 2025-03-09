@@ -1,5 +1,7 @@
 \version "2.24.4"
 
+% Still OCA translation
+
 keyTime = { \key f \major}
 
 
@@ -149,7 +151,7 @@ BassMusic   = \relative {
 }
 
 VerseOne = \lyricmode {
-    I love the Lord be -- cause He has heard
+    I love the Lord be -- cause He hath heard
     the voice of my sup -- li -- ca -- tion.
 
     Through the prayers of the The -- o -- to -- kos, __ O __ Sav -- ior, save __ us.

@@ -51,26 +51,27 @@ SopMusic    = \relative {
     \cadenzaOn
 
     \textMark "1."
-    f'4 g a a bes2 bes a \cadenzaMeasure
+    f'4 f g a a bes2 bes a \cadenzaMeasure
     f4 g a f g2 g f \cadenzaMeasure \bar "."
 
     \textMark \markup { \italic \small "Refrain" }
     f4 g a2 a4 a g a bes2 a4( bes) a( g) f2 g a( g) f1 \cadenzaMeasure \bar"."
 
     \textMark "2."
-    f4 g a a g a bes2 bes a \cadenzaMeasure
-    f4 g a a f g2 f \cadenzaMeasure \section
+    a4 a g a bes1 a2 \cadenzaMeasure
+    f4 g a a a f g2 f \cadenzaMeasure \section \break
 
     \stub \refrain
 
     \textMark "3."
-    f4 g a \hideNotes a a a   a a \unHideNotes a g a bes1 a2 \cadenzaMeasure
-    f4 g a f g2 g f \cadenzaMeasure \section
+    f4 f f g a \hideNotes a a a \unHideNotes a g a bes1 a2 \cadenzaMeasure
+    f4 g a \hideNotes a a a a a \unHideNotes a f g2 g4 g f2 \cadenzaMeasure \section
 
+    \stub
     \refrain
 
     \textMark "4."
-    f4 a a g a \break bes2 bes4 bes4 a2 \cadenzaMeasure
+    f4 f g a \hideNotes a a \unHideNotes a \break g a bes2 bes4 bes4 a2 \cadenzaMeasure
     f4 a f g2 g f \cadenzaMeasure \section
 
     \refrain
@@ -89,27 +90,28 @@ BassMusic   = \relative {
     \cadenzaOn
 
     %1
-    f'4 f f f bes,2 d f \cadenzaMeasure
+    f'4 f f f f bes,2 d f \cadenzaMeasure
     f4 f f f c2 c f \cadenzaMeasure
 
     %Refrain
     f4 f f2 f4 f f f bes,2 f' f f d c1 f \cadenzaMeasure
 
     %2
-    f4 f f f f f bes,2 d f \cadenzaMeasure
-    f4 f f f f c2 f \cadenzaMeasure
+    f4 f f f bes,2( d) f \cadenzaMeasure
+    f4 f f f f f c2 f \cadenzaMeasure 
 
     \stub
     \refrainBlank
 
     %3
-    f4 f f \hideNotes f f f f f \unHideNotes f f f bes,2( d) f \cadenzaMeasure
-    f4 f f f c2 c f \cadenzaMeasure
+    f4 f f f f \hideNotes f f f \unHideNotes f f f bes,2( d) f \cadenzaMeasure
+    f4 f f \hideNotes f f f f f \unHideNotes f f c2 c4 c f2 \cadenzaMeasure
 
+    \stub
     \refrainBlank
 
     %4
-    f4 f f f f bes,2 bes4 d f2 \cadenzaMeasure
+    f4 f f f \hideNotes f f \unHideNotes f f f bes,2 bes4 d f2 \cadenzaMeasure
     f4 f f c2 c f \cadenzaMeasure
 
     \refrainBlank
@@ -123,19 +125,19 @@ BassMusic   = \relative {
 }
 
 VerseOne = \lyricmode {
-    God, my God, at -- tend to me!
+    O God, my God, at -- tend to me;
     Why hast Thou for -- sak -- en me?
 
     Through the prayers of the The -- o -- to -- kos, __ O __ Sav -- ior, save __ us.
 
-    Why art Thou so far from help -- ing me,
-    from the words of my groan -- ing?
+    Far from my sal -- va -- tion
+    are the words of my trans -- gres -- sions.
 
-    O my God, I cry by day, but Thou dost not an -- swer;
-    and by night, but find no rest.
+    My God, I will cry by day, and wilt Thou not hear -- ken?
+    and by night and it shall not be un -- to fol -- ly for me.
 
-    Thou dwell -- est in the sanc -- tu -- ar -- y,
-    the praise of Is -- ra -- el.
+    But as for Thee, Thou dwell -- est in the sanc -- tu -- ar -- y,
+    O Praise of Is -- ra -- el.
 
     Glo -- ry to the Fa -- ther and to the Son and to the Ho -- ly Spir -- it,
     both now and ev -- er and un -- to the ag -- es of ag -- es. A -- men.

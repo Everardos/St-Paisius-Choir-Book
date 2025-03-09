@@ -66,23 +66,24 @@ SopMusic    = \relative {
     \cadenzaOn
 
     \textMark "1."
-    f'4 f f g a g a bes2 bes4 bes a2 \cadenzaMeasure
-     \cadenzaMeasure \bar "."
+    f'4 a a a g a bes2 bes4 bes a2 \cadenzaMeasure
+    f4 g \break a \hideNotes a a \unHideNotes a f g2 g4 g4 f2 \cadenzaMeasure \bar "."
 
     \textMark \markup { \italic \small "Refrain" }
-    f4 g a2 a4 a g a bes2 a4( bes) a( g) f2 g a( g) f1 \cadenzaMeasure \bar"."
+    f4 g a2 a4 a \break g a bes2 a4( bes) a( g) f2 g a( g) f1 \cadenzaMeasure \bar"."
 
     \textMark "2."
-     \cadenzaMeasure
-     \cadenzaMeasure \section
+    f4 f g a \break bes2 bes4 bes a2 \cadenzaMeasure
+    f4 a \hideNotes a a a \unHideNotes a f g2 f \cadenzaMeasure \section
 
+    \stub
     \refrain
 
     \textMark "3."
-     \cadenzaMeasure
-     \cadenzaMeasure \section
+    f4 a \hideNotes a a \unHideNotes a g a bes2 bes a \cadenzaMeasure
+    f4 g a a a f g2 g4 g f2 \cadenzaMeasure \section
 
-    \refrain
+    \refrainLineEnd
 
     \textMark "4."
     f4 f f g a \hideNotes a a a   a a a   a \unHideNotes a g a bes1 a2 \cadenzaMeasure
@@ -98,21 +99,22 @@ BassMusic   = \relative {
     \cadenzaOn
 
     %1
-    \cadenzaMeasure
-     \cadenzaMeasure
+    f'4 f f f f f bes,2 bes4 d f2 \cadenzaMeasure
+    f4 f   f \hideNotes f f \unHideNotes f f c2 c4 c f2 \cadenzaMeasure
 
     %Refrain
     f4 f f2 f4 f f f bes,2 f' f f d c1 f \cadenzaMeasure
 
     %2
-     \cadenzaMeasure
-     \cadenzaMeasure
+    f4 f f f bes,2 bes4 d f2 \cadenzaMeasure
+    f4 f \hideNotes f f f \unHideNotes f f c2 f \cadenzaMeasure
 
+    \stub
     \refrainBlank
 
     %3
-     \cadenzaMeasure
-     \cadenzaMeasure
+    f4 f \hideNotes f f \unHideNotes f f f bes,2 d f \cadenzaMeasure
+    f4 f f f f f c2 c4 c f2 \cadenzaMeasure
 
     \refrainBlank
 
@@ -125,16 +127,16 @@ BassMusic   = \relative {
 }
 
 VerseOne = \lyricmode {
-    The heav -- ens are tell -- ing the glo -- ry of God;
-    and the fir -- mament pro -- claims His hand -- i -- work.
+    The heav -- ens de -- clare the glo -- ry of God;
+    and the fir -- mament proclaim -- eth the work of His hands.
 
     Through the prayers of the The -- o -- to -- kos, __ O __ Sav -- ior, save __ us.
 
-    Day to day pours forth speech,
-    and night to night de -- clares knowl -- edge.
+    Day un -- to day pour -- eth forth speech,
+    and night unto night pro -- claim -- eth knowl -- edge.
 
-    Their proc -- la -- ma -- tion has gone out in -- to all the earth,
-    and their words to the ends of the u -- ni -- verse.
+    Their sound hath gone forth in -- to all the earth,
+    and their words un -- to the ends of the world.
 
     Glo -- ry to the Fa -- ther and to the Son and to the Ho -- ly Spir -- it,
     both now and ev -- er and un -- to the ag -- es of ag -- es. A -- men.
@@ -144,7 +146,7 @@ VerseOne = \lyricmode {
 
 \score {
     \header {
-        piece = \markup {\large \italic "Jan. 6: Theophany"}
+        piece = \markup {\large \italic "Pentecost"}
     }
     \new Staff
     % \with {midiInstrument = "choir aahs"} 
