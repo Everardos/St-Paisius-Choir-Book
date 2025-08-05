@@ -77,7 +77,8 @@ TenorMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4  
     d'4 d d d |
-    b2. b4 | b2. d?4
+    b2. b4 | 
+    b2. d?4 |
     d2. d4 |
     d2 
 
@@ -105,7 +106,22 @@ TenorMusic   = \relative {
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4  
-    
+    g4 g d d |
+    e2( dis4) e |
+    b2( e4) d! |
+    g2( fis4) g |
+    d2\fermata
+
+    d4 d |
+    g,8( a b4 e) e |
+    e4( dis8 e) b4 b |
+    e4.( b8)
+
+    e4 d! |
+    g4 g d d |
+    d1 |
+    g2. s4 |
+
 }
 
 VerseOne = \lyricmode {

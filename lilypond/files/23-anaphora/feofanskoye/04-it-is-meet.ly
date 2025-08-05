@@ -48,7 +48,7 @@ TenorMusic   = \relative {
     \time 4/4  
     \partial 2
     b4 b | b2. b4 |
-    b2 \breathe b4 d! | d2. d4 | 
+    b2 \breathe b4 d? | d2. d4 | 
     d2. d4 | d8( c b4) b b | 
     a8( b c b~ b4) b | b2 b |
     b4 r4 r2 | d4 d d d |
