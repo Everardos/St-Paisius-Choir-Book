@@ -29,7 +29,7 @@ titleFont = \markup {\fill-line {
 \paper {
     #(set-paper-size "letter")
     page-breaking = #ly:optimal-breaking
-    ragged-last-bottom = ##t
+    ragged-bottom = ##t
     right-margin = 17\mm
     left-margin = 17\mm
     #(define fonts
@@ -79,60 +79,54 @@ titleFont = \markup {\fill-line {
    (interpret-markup layout props
      (markup #:override '(font-name . "EB Garamond") text )))
 
-\markup \vspace #2
-\markup \wordwrap {\larger {  Deacon: \ebregular{Let us stand well, let us stand with fear, let us attend, that we may offer the holy oblation in peace.}}}
 \markup \vspace #1
+\markup \wordwrap {\larger {  Deacon: \ebregular{Let us stand well, let us stand with fear, let us attend, that we may offer the holy oblation in peace.}}}
+\markup \vspace #0.5
 
 
 \include "01-mercy-of-peace.ly"
 
-\markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{The grace of our Lord Jesus Christ, and the love of God the Father, and the communion of the Holy Spirit be with you all.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "02-and-with.ly"
 
-\markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Let us lift up our hearts.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "03-we-lift.ly"
 
 \pageBreak
-\markup \vspace #1
+\markup \vspace #0.5
 \markup \wordwrap {\larger {  Priest: \ebregular{Let us give thanks unto the Lord.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "04-it-is-meet.ly"
 
 
-
-\markup \vspace #1
+\pageBreak
+\markup \vspace #0.5
 \markup \wordwrap {\larger {  Priest: \ebregular{Singing the triumphal hymn, shouting, crying aloud and saying:}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "05-sanctus.ly"
 
-\markup \vspace #1
+\pageBreak
+
+\markup \vspace #0.5
 \markup \wordwrap {\larger {  Priest: \ebregular{Take, eat: this is My Body, which is broken for you for the remission of sins.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "06-amen1.ly"
 
-\markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Drink of it, all of you: this is My Blood of the New Testament, which is shed for you and for many, for the remission of sins.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "07-amen2.ly"
 
-\pageBreak
-
-\markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Offering unto Thee Thine own of Thine own, in behalf of all and for all.}}}
-\markup \vspace #1
+\markup \vspace #0.5
 
 \include "08-we-praise-thee.ly"
 
-\markup \vspace #1
 \markup \wordwrap {\larger {  Priest: \ebregular{Especially for our most holy, most pure, most blessed, glorious Lady Theotokos and Ever-Virgin Mary.}}}
-\markup \vspace #1
