@@ -41,9 +41,18 @@ VerseOne = \lyricmode {
     We lift them up un -- to the Lord.
     }
 
+VarDynamics = {
+    s1 
+    s4\< s8\! s s4\> s
+    s\! s s s
+}
+
 
 \score {
     \new ChoirStaff <<
+        \new Dynamics {
+            \VarDynamics
+        }
         \new Staff
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"

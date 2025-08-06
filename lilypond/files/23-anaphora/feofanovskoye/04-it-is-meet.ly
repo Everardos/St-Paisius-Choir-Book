@@ -86,9 +86,40 @@ VerseOne = \lyricmode {
     and un -- di -- vid -- ed.
     }
 
+VarDynamics = {
+    \partial 2
+    s4\p s
+    s4\< s\! s\> s
+    s\! s s\< s
+    s\! s s\> s
+
+    s\! s s s
+    s1
+    s1
+    s1
+
+    s1
+    s4\< s s s 
+    s\! s s\> s
+
+    s\! s s s\<
+    s s\! s\> s
+    s\! s s s
+    s1
+    
+    s1
+    s
+    s1
+    s1
+
+
+}
 
 \score {
     \new ChoirStaff <<
+        \new Dynamics {
+            \VarDynamics
+        }
         \new Staff 
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"

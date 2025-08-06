@@ -46,7 +46,6 @@ BassMusic   = \relative {
     e4( d) | g2 fis4 g |
     d2. d4 | d( e8 b e4) e |
     e( dis8 e b4) b | e1 \section
-
 }
 
 VerseOne = \lyricmode {
@@ -54,9 +53,22 @@ VerseOne = \lyricmode {
     a sac -- ri -- fice __ of praise.
     }
 
+VarDynamics = {
+    \partial 2
+    s4\p s 
+    s\< s\! s s
+    s\> s s s\!
+    s1
+    s1
+    s1
+}
+
 
 \score {
     \new ChoirStaff <<
+        \new Dynamics {
+            \VarDynamics
+        }
         \new Staff \with {instrumentName = \markup {
             \right-column {
                 \line { "S" }
@@ -68,6 +80,7 @@ VerseOne = \lyricmode {
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
+        
         >>
         \new Staff \with {instrumentName = \markup {
             \right-column {
@@ -86,6 +99,8 @@ VerseOne = \lyricmode {
         \Score
             \omit BarNumber
             \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+            \override DynamicText.direction = #UP
+            \override DynamicLineSpanner.direction = #UP
     }
     \context {
         \Lyrics
