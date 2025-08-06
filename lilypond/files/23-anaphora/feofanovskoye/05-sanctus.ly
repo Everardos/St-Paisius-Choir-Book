@@ -32,7 +32,7 @@ SopMusic    = \relative {
 
     b4 b8\noBeam b\noBeam a4 b |
     c4( b8 c) d4 c |
-    b2 b8[( a]) c[( b]) |
+    b2 b4 c8[( b]) |
     a2.
 
     a4 |
@@ -62,7 +62,7 @@ AltoMusic    = \relative {
 
     g4 g8\noBeam g\noBeam fis4 g |
     a4( g8 a) b4 a |
-    g2 g8[( fis)] a[( g)] |
+    g2 g4 a8[( g)] |
     fis2.
 
     fis4 |
@@ -122,6 +122,16 @@ BassMusic   = \relative {
     d1 |
     g2. s4 |
 
+    g4 g8\noBeam g\noBeam d4 d |
+    d2 d4 d |
+    g2 g4 fis8( g) |
+    d2.
+
+    d4 |
+    g,8( a) b4 e e |
+    e( dis8 e b2) |
+    e1\fermata \section
+
 }
 
 VerseOne = \lyricmode {
@@ -138,24 +148,14 @@ VerseOne = \lyricmode {
 
 \score {
     \new ChoirStaff <<
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "S" }
-                \line { "A" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
         >>
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "T" }
-                \line { "B" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<          
             \clef "bass"
             \new Voice = "Tenor" { \voiceOne \keyTime \TenorMusic}

@@ -14,67 +14,42 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4
-    \partial 2 
-    g'4( a) | b( d) c b | 
-    a2. a4 | b8( a g fis g4) b |
-    c8( b a g fis4) fis | g1 \section
+    b'2( a4 b | c b8 c d4 c) | b1\fermata \section
 }
 
 AltoMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4
-    \partial 2 
-    e'4( fis) | g( b) a g |
-    fis2. fis4 | g8( fis e dis e4) g |
-    a8( g fis e dis4) dis | e1 \section
+    g'2( fis4 g | a g8 a b4 a) | g1 \section
 }
 
 TenorMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4  
-    \partial 2 
-    b4( d) | d2 d4 d |
-    d2. d4 | d( b2) b4 |
-    a8( b c b~ b4) b | b1 \section
-
+    d'1~ | d | d \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4  
-    \partial 2 
-    e4( d) | g2 fis4 g |
-    d2. d4 | d( e8 b e4) e |
-    e( dis8 e b4) b | e1 \section
-
+    g2( d~ | d1 ) | g1\fermata \section
 }
 
 VerseOne = \lyricmode {
-    A __ mer -- cy of peace,
-    a sac -- ri -- fice __ of praise.
+    A -- men.
     }
 
 
 \score {
     \new ChoirStaff <<
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "S" }
-                \line { "A" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
         >>
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "T" }
-                \line { "B" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<          
             \clef "bass"
             \new Voice = "Tenor" { \voiceOne \keyTime \TenorMusic}
@@ -86,10 +61,6 @@ VerseOne = \lyricmode {
         \Score
             \omit BarNumber
             \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
-    }
-    \context {
-        \Staff
-            \remove Time_signature_engraver
     }
     \context {
         \Lyrics

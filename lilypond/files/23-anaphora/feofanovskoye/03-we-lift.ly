@@ -44,24 +44,14 @@ VerseOne = \lyricmode {
 
 \score {
     \new ChoirStaff <<
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "S" }
-                \line { "A" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"
             \new Voice = "Sop"  { \voiceOne \keyTime \SopMusic}
             \new Voice = "Alto" { \voiceTwo \AltoMusic }
             \new Lyrics \lyricsto "Sop" { \VerseOne }
         >>
-        \new Staff \with {instrumentName = \markup {
-            \right-column {
-                \line { "T" }
-                \line { "B" }
-            }
-        }}
+        \new Staff
         \with {midiInstrument = "choir aahs"} <<          
             \clef "bass"
             \new Voice = "Tenor" { \voiceOne \keyTime \TenorMusic}
@@ -73,10 +63,6 @@ VerseOne = \lyricmode {
         \Score
             \omit BarNumber
             \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
-    }
-    \context {
-        \Staff
-            \remove Time_signature_engraver
     }
     \context {
         \Lyrics
