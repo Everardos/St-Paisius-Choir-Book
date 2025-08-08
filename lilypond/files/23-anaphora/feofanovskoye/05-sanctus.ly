@@ -14,7 +14,7 @@ cadenzaMeasure = {
 SopMusic    = \relative { 
     \override Score.BarNumber.break-visibility = #all-visible
     \time 4/4
-    b'4 b a a | 
+    b'4-> b a-> a | 
     g( b a) g |
     fis2( g4) a |
     b( d c) b |
@@ -145,9 +145,18 @@ VerseOne = \lyricmode {
     Ho -- san -- na __ in the high -- est.
     }
 
+VarDynamics = {
+    \once \override DynamicText.X-offset = #-3.2
+    s4\mf s s s
+    s\< s\! s\> s
+    s\! s s s
+}
 
 \score {
     \new ChoirStaff <<
+        \new Dynamics {
+            \VarDynamics
+        }
         \new Staff
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"

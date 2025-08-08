@@ -17,7 +17,7 @@ SopMusic    = \relative {
 
     b'2\rest fis2 | g4( b a g) | fis2
     g4( a) | b( d c b) | a2
-    a4 a | b4.( a8) g4 fis | g2( b) |
+    a4 a | b4.->( a8) g4 fis | g2( b) |
     c4.( b8 a4 g) | fis2
 
     \repeat volta 2 {
@@ -106,9 +106,28 @@ VerseOne = \lyricmode {
     O our God.
     }
 
+VarDynamics = {
+    \textMark \markup { \italic { \smaller Slowly}}
+    s4 s\p s s
+    s1 s s s
+    s4 s s s
+    s2\< s
+    s4.\! s8\> s4 s
+    s4\! s\pp s s
+    s4\< s s\! s\>
+    s8 s\! s4 s s
+    s4\> s s s\!
+    s\< s8\! s s4\> s
+    s4\! s s s
+     
+}
+
 
 \score {
     \new ChoirStaff <<
+        \new Dynamics {
+            \VarDynamics
+        }
         \new Staff 
         \with {midiInstrument = "choir aahs"} <<
             \clef "treble"
