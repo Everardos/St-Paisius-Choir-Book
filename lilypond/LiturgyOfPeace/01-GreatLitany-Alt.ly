@@ -25,16 +25,16 @@ A-Amen-T = {a2( c~ c1) a2\fermata \cadenzaSection}
 A-Amen-B = {f2.( a4 c2 bes,2) << f2 f'2>> \cadenzaSection}
 A-Amen-Lyrics = \lyricmode {A -- men.}
 
-A-Kyrie-S = {a2( g4 bes a8) f g4 f2\fermata \cadenzaSection}
-A-Kyrie-A = {f1~ f8 f e4 c2 \cadenzaSection}
-A-Kyrie-T = {c2( d c8) a bes4 a2\fermata \cadenzaSection} 
-A-Kyrie-B = {f2(bes,2 c8) c c4 <<f2 f,2>> \cadenzaSection}
+A-Kyrie-S = {a2( g4) bes a8([ f] g4) f2\fermata \cadenzaSection}
+A-Kyrie-A = {f2. f4  f4( e4) c2 \cadenzaSection}
+A-Kyrie-T = {c2( d4) d c8([ a] bes4) a2\fermata \cadenzaSection} 
+A-Kyrie-B = {f2(bes,4) bes c2 <<f2 f,2>> \cadenzaSection}
 A-Kyrie-Lyrics = \lyricmode {Lord __ have mer -- cy. }
 
-B-Kyrie-S ={a2( bes4 a g8) a g4 f2\fermata \cadenzaSection}
-B-Kyrie-A ={f1( e8) e e4 c2 \cadenzaSection}
-B-Kyrie-T ={c2( d4 c4.) c8 bes4 a2\fermata  \cadenzaSection}
-B-Kyrie-B ={f'2( bes,4 c4.) c8 c4 <<f2 f,2>> \cadenzaSection}
+B-Kyrie-S ={a2( bes4) a g8( a g4) f2\fermata \cadenzaSection}
+B-Kyrie-A ={f2. f4 e2 c2 \cadenzaSection}
+B-Kyrie-T ={c2( d4) c4 c( bes) a2\fermata  \cadenzaSection}
+B-Kyrie-B ={f'2( bes,4) c4 c2 <<f2 f,2>> \cadenzaSection}
 B-Kyrie-Lyrics = \lyricmode {Lord __ have mer -- cy.}
 
 C-Kyrie-S = {a2( bes4 g c2) a8([ f]) g4 f2\fermata \cadenzaSection}
