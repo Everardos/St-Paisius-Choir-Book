@@ -81,7 +81,6 @@ cadenzaMeasure = {
 }
 
 
-
 SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \time 4/4 
@@ -90,10 +89,12 @@ SopMusic    = \relative {
     a4.( g8\noBeam fis g) a4 |
     g2 g4.( a8 |
     b4 c b8 a) b4 |
+
     a2 a8[( g] a[ b] |
     c4. b8\noBeam a b) c4 |
     b2( a4) g |
     fis4.( g8 a4) g8([ fis]) |
+
     e4( fis g) g |
     fis2. fis4 |
     e1 \section
@@ -102,13 +103,40 @@ SopMusic    = \relative {
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \time 4/4 
-    
+
+    e'2 e4 e |
+    e2. e4 |
+    e2 e( |
+    d8[ g] e[ fis] g4) g |
+
+    fis2 fis8([ e] fis[ g] | 
+    e2 a4) a |
+    a( g fis) e |
+    dis4.( e8 fis4) e8( dis) |
+
+    e2. e4 |
+    e2( dis4) dis |
+    e1 \section
 
 }
 
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \time 4/4 
+
+    b2 b4 b |
+    c2. c4 |
+    b2 b4.( c8 |
+    d4 c d) d |
+
+    d2 d( |
+    c e4) e |
+    e2( b4) b |
+    b2. b8( a) |
+
+    g4( a b) b |
+    c2( b4) a |
+    g1 \section
     
 }
 
@@ -116,6 +144,19 @@ BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \time 4/4 
 
+    e2 e8( fis) g4 |
+    a2. a4 |
+    e2 e4( d8 c |
+    b4 a g) b |
+
+    d2 d4( c8 b) |
+    a2 c4 c |
+    e2( dis4) e4 |
+    b2. b4 |
+
+    c2( g4) g |
+    a2( b4) b |
+    e1 \section
     
 }
 
