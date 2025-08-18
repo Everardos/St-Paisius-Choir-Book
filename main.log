@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.2.4)  6 MAR 2025 22:10
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.2.4)  16 AUG 2025 09:56
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1146,27 +1146,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
 (lyluatex)               on input line 5
-Module lyluatex Info: Compiling score tmp-ly/d6f337a887ab6ebf8048dbbde8d18207 wi
+Module lyluatex Info: Compiling score tmp-ly/a43deba47466757e6a12c6cd3c7ea908 wi
 th LilyPond executable 'lilypond'. on input line 5
-Package epstopdf Info: Source file: <tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1.
+Package epstopdf Info: Source file: <tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1.
 eps>
-(epstopdf)                    date: 2025-03-06 21:44:52
-(epstopdf)                    size: 1349630 bytes
-(epstopdf)             Output file: <tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-
+(epstopdf)                    date: 2025-03-06 21:44:50
+(epstopdf)                    size: 1349557 bytes
+(epstopdf)             Output file: <tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2025-03-06 21:44:53
-(epstopdf)                    size: 35176 bytes
-(epstopdf)             Command: <repstopdf --outfile=tmp-ly/d6f337a887ab6ebf804
-8dbbde8d18207-1-eps-converted-to.pdf tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1.
+(epstopdf)                    date: 2025-03-06 21:44:51
+(epstopdf)                    size: 35150 bytes
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/a43deba47466757e6a1
+2c6cd3c7ea908-1-eps-converted-to.pdf tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1.
 eps>
 (epstopdf)             \includegraphics on input line 2.
 Package epstopdf Info: Output file is already uptodate.
-File: tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converted-to.pdf Graphic fi
+File: tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converted-to.pdf Graphic fi
 le (type pdf)
-<use tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converted-to.pdf>
-Package luatex.def Info: tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converte
+<use tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converte
 d-to.pdf  used on input line 2.
-(luatex.def)             Requested size: 276.03056pt x 105.39348pt.
+(luatex.def)             Requested size: 276.03056pt x 103.38599pt.
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
 (lyluatex)               on input line 7
@@ -1480,14 +1480,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 [14] (./11-gospel.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
+ |\TU/EBGaramond(0)/m/sc/17.28 󰅑󰅞󰌶󰅨󰆏󰆞󰅞 󰆩󰅮󰅞 󰅩
+󰆏󰆢󰆛󰅞󰆁| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
  |\TU/EBGaramond(0)/m/sc/17.28 󰆩󰅮󰅞 󰅩󰆏󰆢󰆛󰅞󰆁| 
  []
 
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
-(lyluatex)               on input line 15
+(lyluatex)               on input line 20
 Module lyluatex Info: Compiling score tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd wi
-th LilyPond executable 'lilypond'. on input line 15
+th LilyPond executable 'lilypond'. on input line 20
 Package epstopdf Info: Source file: <tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1.
 eps>
 (epstopdf)                    date: 2025-03-04 17:21:20
@@ -1501,7 +1512,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 2.
 Package epstopdf Info: Output file is already uptodate.
-<tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf, id=197, 146.54
+<tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf, id=200, 146.54
 75pt x 109.40875pt>
 File: tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1509,14 +1520,11 @@ le (type pdf)
 Package luatex.def Info: tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converte
 d-to.pdf  used on input line 2.
 (luatex.def)             Requested size: 146.54712pt x 109.40846pt.
-
-
-[15<./tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf>]
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
-(lyluatex)               on input line 17
+(lyluatex)               on input line 22
 Module lyluatex Info: Compiling score tmp-ly/a68e1c6d324b3b17705f24b6758d0394 wi
-th LilyPond executable 'lilypond'. on input line 17
+th LilyPond executable 'lilypond'. on input line 22
 Package epstopdf Info: Source file: <tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1.
 eps>
 (epstopdf)                    date: 2025-03-04 17:21:21
@@ -1530,7 +1538,7 @@ f24b6758d0394-1-eps-converted-to.pdf tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1.
 eps>
 (epstopdf)             \includegraphics on input line 2.
 Package epstopdf Info: Output file is already uptodate.
-<tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1-eps-converted-to.pdf, id=212, 260.97
+<tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1-eps-converted-to.pdf, id=201, 260.97
 5pt x 112.42pt>
 File: tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1540,9 +1548,9 @@ d-to.pdf  used on input line 2.
 (luatex.def)             Requested size: 260.97437pt x 112.41972pt.
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
-(lyluatex)               on input line 20
+(lyluatex)               on input line 25
 Module lyluatex Info: Compiling score tmp-ly/1be593f593d4147ee547771fecffb3cb wi
-th LilyPond executable 'lilypond'. on input line 20
+th LilyPond executable 'lilypond'. on input line 25
 Package epstopdf Info: Source file: <tmp-ly/1be593f593d4147ee547771fecffb3cb-1.
 eps>
 (epstopdf)                    date: 2025-03-04 17:21:22
@@ -1556,7 +1564,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 2.
 Package epstopdf Info: Output file is already uptodate.
-<tmp-ly/1be593f593d4147ee547771fecffb3cb-1-eps-converted-to.pdf, id=213, 266.99
+<tmp-ly/1be593f593d4147ee547771fecffb3cb-1-eps-converted-to.pdf, id=202, 266.99
 75pt x 125.46875pt>
 File: tmp-ly/1be593f593d4147ee547771fecffb3cb-1-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1566,9 +1574,9 @@ d-to.pdf  used on input line 2.
 (luatex.def)             Requested size: 266.99683pt x 125.46843pt.
 )
 
-[16<./tmp-ly/a68e1c6d324b3b17705f24b6758d0394-1-eps-converted-to.pdf><./tmp-ly/1
-be593f593d4147ee547771fecffb3cb-1-eps-converted-to.pdf>]
-(./12-augmentedlitany.tex
+[16<./tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf><./tmp-ly/a
+68e1c6d324b3b17705f24b6758d0394-1-eps-converted-to.pdf><./tmp-ly/1be593f593d4147
+ee547771fecffb3cb-1-eps-converted-to.pdf>] (./12-augmentedlitany.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  |\TU/EBGaramond(0)/m/sc/17.28 󰅆󰆭󰅩󰌶󰆇󰅞󰆈󰆩󰅞󰅚 󰆁
 󰅱󰆩󰅆󰆈󰆽| 
@@ -1743,27 +1751,27 @@ LaTeX Font Warning: Font shape `TU/lmtt/bx/sc' undefined
 Module lyluatex Warning: Found something incompatible with `fragment`
 (lyluatex)               (or `relative`). Setting them to false.
 (lyluatex)               on input line 5
-Module lyluatex Info: Compiling score tmp-ly/a43deba47466757e6a12c6cd3c7ea908 wi
+Module lyluatex Info: Compiling score tmp-ly/d6f337a887ab6ebf8048dbbde8d18207 wi
 th LilyPond executable 'lilypond'. on input line 5
-Package epstopdf Info: Source file: <tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1.
+Package epstopdf Info: Source file: <tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1.
 eps>
-(epstopdf)                    date: 2025-03-06 21:44:50
-(epstopdf)                    size: 1349557 bytes
-(epstopdf)             Output file: <tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-
+(epstopdf)                    date: 2025-03-06 21:44:52
+(epstopdf)                    size: 1349630 bytes
+(epstopdf)             Output file: <tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2025-03-06 21:44:51
-(epstopdf)                    size: 35150 bytes
-(epstopdf)             Command: <repstopdf --outfile=tmp-ly/a43deba47466757e6a1
-2c6cd3c7ea908-1-eps-converted-to.pdf tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1.
+(epstopdf)                    date: 2025-03-06 21:44:53
+(epstopdf)                    size: 35176 bytes
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/d6f337a887ab6ebf804
+8dbbde8d18207-1-eps-converted-to.pdf tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1.
 eps>
 (epstopdf)             \includegraphics on input line 2.
 Package epstopdf Info: Output file is already uptodate.
-File: tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converted-to.pdf Graphic fi
+File: tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converted-to.pdf Graphic fi
 le (type pdf)
-<use tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converted-to.pdf>
-Package luatex.def Info: tmp-ly/a43deba47466757e6a12c6cd3c7ea908-1-eps-converte
+<use tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/d6f337a887ab6ebf8048dbbde8d18207-1-eps-converte
 d-to.pdf  used on input line 2.
-(luatex.def)             Requested size: 276.03056pt x 103.38599pt.
+(luatex.def)             Requested size: 276.03056pt x 105.39348pt.
 Package marginnote Info: Margin note 27.1 is on absolute page 27 on input line 
 5.
 Package marginnote Info: xpos seems to be 429.50053pt on input line 5.
@@ -2042,6 +2050,30 @@ le (type pdf)
 Package luatex.def Info: tmp-ly/edd14e14779747ca99d9e221976ae74a-1-eps-converte
 d-to.pdf  used on input line 2.
 (luatex.def)             Requested size: 153.57336pt x 101.3785pt.
+Module lyluatex Warning: Found something incompatible with `fragment`
+(lyluatex)               (or `relative`). Setting them to false.
+(lyluatex)               on input line 40
+Module lyluatex Info: Compiling score tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd wi
+th LilyPond executable 'lilypond'. on input line 40
+Package epstopdf Info: Source file: <tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1.
+eps>
+(epstopdf)                    date: 2025-03-04 17:21:20
+(epstopdf)                    size: 1350894 bytes
+(epstopdf)             Output file: <tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-04 17:21:21
+(epstopdf)                    size: 35145 bytes
+(epstopdf)             Command: <repstopdf --outfile=tmp-ly/d29a463e56cbc2adf26
+009d0da4a7ddd-1-eps-converted-to.pdf tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1.
+eps>
+(epstopdf)             \includegraphics on input line 2.
+Package epstopdf Info: Output file is already uptodate.
+File: tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converted-to.pdf>
+Package luatex.def Info: tmp-ly/d29a463e56cbc2adf26009d0da4a7ddd-1-eps-converte
+d-to.pdf  used on input line 2.
+(luatex.def)             Requested size: 146.54712pt x 109.40846pt.
 
 
 [32]
@@ -2436,6 +2468,9 @@ le (type pdf)
 Package luatex.def Info: tmp-ly/9f55a81a0500315af2a2f7d9c122c618-1-eps-converte
 d-to.pdf  used on input line 2.
 (luatex.def)             Requested size: 296.10551pt x 122.45718pt.
+
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
 
 
 [43<./tmp-ly/9f55a81a0500315af2a2f7d9c122c618-1-eps-converted-to.pdf>]
@@ -2897,12 +2932,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17454 strings out of 475512
+ 17457 strings out of 475512
  100000,1144653 words of node,token memory allocated
  1395 words of node memory still in use:
    4 hlist, 2 vlist, 1 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 8 
 attribute, 230 glue_spec, 8 attribute_list, 2 write nodes
-   avail lists: 2:650,3:203,4:146,5:469,6:96,7:4816,8:3,9:336,10:14,11:215
+   avail lists: 2:650,3:203,4:146,5:470,6:96,7:4816,8:3,9:336,10:14,11:215
  39840 multiletter control sequences out of 65536+600000
  55 fonts using 13293599 bytes
  85i,12n,92p,2044b,871s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2910,7 +2945,7 @@ attribute, 230 glue_spec, 8 attribute_list, 2 write nodes
 SemiBoldItalic.otf></home/josh/.local/share/fonts/EBGaramond-SemiBold.ttf></home
 /josh/.local/share/fonts/1EBGaramond-Italic-VariableFont_wght.ttf></usr/local/te
 xlive/2024/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regular.otf>
-Output written on main.pdf (55 pages, 1422343 bytes).
+Output written on main.pdf (55 pages, 1422417 bytes).
 
 PDF statistics: 622 PDF objects out of 1000 (max. 8388607)
  408 compressed objects within 5 object streams
