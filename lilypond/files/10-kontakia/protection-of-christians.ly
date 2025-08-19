@@ -144,7 +144,7 @@ VerseOne = \lyricmode {
     to help us who in faith cry un -- to thee;
     has -- ten to in -- ter -- ces -- sion and speed thou to make sup -- pli -- ca -- tion,
     thou who dost ever protect, O The -- o -- to -- kos, 
-    them that ho -- nor thee.
+    them that hon -- or thee.
     }
 
 
