@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-
+% Znamenny harmonized, per Benedict Sheehan
 
 
 keyTime = { \key f \major}
