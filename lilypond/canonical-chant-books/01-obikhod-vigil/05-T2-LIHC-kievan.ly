@@ -7,41 +7,45 @@
     ))
 }
 
+% NOTE: This follows tone tutor. There is a more correct melody.
 
-MelodyMusic = \relative c' { 
+MelodyMusicOne = \relative c' { 
     \cadenzaOn
-    \[ e2( f4 g) \] e4 e\breve d4 e2 e4 d e d2 \caesura
-    c4 d e e d2 c d \caesura
-    c4 d e e\breve d4 e f2 f4 e d e1 \caesura
-    f4 g2 f4 f\breve \[ e2( d) \] e \caesura
-    \[ e2( f4 g) \] \[ e( d) \] e2 d4 e d2 \caesura
-    \[ e4( f g2) \] f4 e \[ d( c) \] \[ d4( e f2) \] e1 d\longa \section
+    \[ d2( e) \] d4 d\breve c4 \[ d( e)\] e e e \[ e( d2) \] \caesura
+    c4 c c c c2 d d \caesura
+    f2 e4 d d\breve d2 d4 d d c2 \caesura
+    c4 c\breve \[ c2( d) \] d \caesura
+    f2 e4 d2 d4 d c2 \caesura
+    e4 e e f e2 d \[ c( d c b\longa)\] \section
 }
 
-MelodyMusicTwo = \relative c' {
+MelodyMusicTwo = \relative c' { 
     \cadenzaOn
-    e4 d \[ e2( f4 g) \] e4 \[ e2( d4 e) \] d2 \caesura
-    c4 d e e \[ d2( c) \] d \caesura
-    c4 d e f2 e4 d e1 \caesura
-    f4 f g2 f4 e2 d e \caesura
-    \[ e4( f g2) \] f4 e \[ d( c) \] \[ d4( e f2) \] e1 d\longa \section
+    \[ d2( e) \] d4 d c \[ d( e)\] \[ e( d2) \] \caesura
+    c4 c c c \[ c2( d) \] d \caesura
+    e4 f2 e4 d2 d4 d c2 \caesura
+    c4 c\breve c2 d d \caesura
+    e4 e e f e2 d \[ c( d c b\longa)\] \section
+
 }
+
 
 
 VerseOne = \lyricmode {
     Lord, I "have cried unto" Thee, hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I have "cried un" -- to Thee, hear -- ken un -- to me;
-    at -- tend to "the voice of my suppli" -- ca -- tion,
+    Lord, I have "cried unto Thee," hear -- ken un -- to me;
+    at -- "tend to the voice of my suppli" -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
+
     }
 
 VerseTwo = \lyricmode {
     Let my prayer be set forth
     as in -- cense be -- fore Thee,
     the lift -- ing up of my hands
-    as an eve -- ning sac -- ri -- fice.
+    as "an evening" sac -- ri -- fice.
     Heark -- en un -- to me, O Lord.
 }
 
@@ -49,7 +53,7 @@ VerseTwo = \lyricmode {
 \score {
     \new KievanStaff
     <<
-        \new KievanVoice = "melody" \MelodyMusic
+        \new KievanVoice = "melody" \MelodyMusicOne
         \new Lyrics \lyricsto "melody" \VerseOne
     >>
     \layout {
