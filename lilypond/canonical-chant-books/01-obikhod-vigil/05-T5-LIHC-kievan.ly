@@ -7,37 +7,32 @@
     ))
 }
 
-\header {title = "Lord, I Have Cried"}
 
 MelodyMusicOne = \relative c' { 
     \cadenzaOn
-    \[g'2( a) \] g4 g\breve e4 f2 f4 f e d2 \caesura
-    f4 f f e f2 g e \caesura
-    g2 g4 g\breve f2 f4 f f e2 \caesura
-    f4 f f f e2 f4 f f f \[ g2( f) \] e \caesura
-    \[ g2( a) \] \[ g4( e)\] f2 f4 e d2 \caesura
-    g4 g g g f2 e d\longa \section
-
-    % More correct cadence below:
-    % g4 g f e \[ f( g2) \] f4 \[ e2( d4 c)  d\longa \] \section
+    d2 d4 d\breve c4 d e2 c4 c c c2 \caesura
+    e4 e e d e2 e d \caesura
+    d2 d4 d\breve b4 c d c b a2 \caesura
+    d4 d2 d4 d\breve c4 d e2 c \caesura
+    e4 d e2 e4 e d2 \caesura
+    e2 d c4 c b2 \[ c4( b) \] a \section
 }
 
 MelodyMusicTwo = \relative c' { 
     \cadenzaOn
-    \[g'2( a) \] g4 g e \[ f( e ) \] d2 \caesura
-    f4 f f e \[ f2( g) \] e \caesura
-    g4 g2 g4 f2 f4 f e2 \caesura
-    f4 f e2 f g f e \caesura
-    g4 g g g f2 e d\longa \section
+    
+
+    
+
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, I "have cried unto" Thee, hear -- ken un -- to me.
+    Lord, I "have cried un" -- to Thee, hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I "have cried unto Thee," hear -- ken un -- to me;
-    at -- tend to the voice of my sup -- pli -- ca -- tion,
+    Lord, I "have cried unto" Thee, hear -- ken un -- to me;
+    at -- tend to "the voice of my" sup -- pli -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
 
@@ -78,10 +73,6 @@ VerseTwo = \lyricmode {
     >>
     \layout {
         ragged-last = ##t
-        \context {
-            \Score
-            \override SpacingSpanner.strict-note-spacing = ##t
-        }
     }
     \midi {
         \tempo 4 = 180

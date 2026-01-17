@@ -7,40 +7,30 @@
     ))
 }
 
-\header {title = "Lord, I Have Cried"}
+% This is the version from the OCA Diocese of the West
+% reset in Kievan square note notation
+% Note durations doubled, might need to change
 
-MelodyMusicOne = \relative c' { 
+MelodyMusic = \relative c' { 
     \cadenzaOn
-    \[g'2( a) \] g4 g\breve e4 f2 f4 f e d2 \caesura
-    f4 f f e f2 g e \caesura
-    g2 g4 g\breve f2 f4 f f e2 \caesura
-    f4 f f f e2 f4 f f f \[ g2( f) \] e \caesura
-    \[ g2( a) \] \[ g4( e)\] f2 f4 e d2 \caesura
-    g4 g g g f2 e d\longa \section
-
-    % More correct cadence below:
-    % g4 g f e \[ f( g2) \] f4 \[ e2( d4 c)  d\longa \] \section
+    \[e2( f4 g)\] e2 \[e4( d)\] \[f2( e d4 c)\] \[d4( e)\] f2 \[e( d4 e d1)\] \caesura
+    g2 g \[f4( e)\] f2 e1 \caesura
+    \[c4( d e2)\] e2 \[e4( d)\] c2 \[d2.( b4 c2)\] b2 a\longa \section
 }
 
-MelodyMusicTwo = \relative c' { 
+MelodyMusicTwo = \relative c' {
     \cadenzaOn
-    \[g'2( a) \] g4 g e \[ f( e ) \] d2 \caesura
-    f4 f f e \[ f2( g) \] e \caesura
-    g4 g2 g4 f2 f4 f e2 \caesura
-    f4 f e2 f g f e \caesura
-    g4 g g g f2 e d\longa \section
+    
 }
-
 
 
 VerseOne = \lyricmode {
-    Lord, I "have cried unto" Thee, hear -- ken un -- to me.
+    Lord, I have cried un -- to Thee, hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I "have cried unto Thee," hear -- ken un -- to me;
+    Lord, I have cried un -- to Thee, hear -- ken un --to me; 
     at -- tend to the voice of my sup -- pli -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
-
     }
 
 VerseTwo = \lyricmode {
@@ -55,7 +45,7 @@ VerseTwo = \lyricmode {
 \score {
     \new KievanStaff
     <<
-        \new KievanVoice = "melody" \MelodyMusicOne
+        \new KievanVoice = "melody" \MelodyMusic
         \new Lyrics \lyricsto "melody" \VerseOne
     >>
     \layout {

@@ -7,28 +7,27 @@
     ))
 }
 
-\header {title = "Lord, I Have Cried"}
 
 MelodyMusicOne = \relative c' { 
     \cadenzaOn
-    \[g'2( a) \] g4 g\breve e4 f2 f4 f e d2 \caesura
-    f4 f f e f2 g e \caesura
-    g2 g4 g\breve f2 f4 f f e2 \caesura
-    f4 f f f e2 f4 f f f \[ g2( f) \] e \caesura
-    \[ g2( a) \] \[ g4( e)\] f2 f4 e d2 \caesura
-    g4 g g g f2 e d\longa \section
-
-    % More correct cadence below:
-    % g4 g f e \[ f( g2) \] f4 \[ e2( d4 c)  d\longa \] \section
+    \stemDown
+    d2 e4 e\breve f4 e2 e4 d e d2 \caesura
+    d2 e4 e c d2. c4 b2 \caesura
+    d2 e4 e\breve f4 e2 e4 d e d2 \caesura
+    d4 d2 e4 e\breve c4 \[ d2.( c4) \] b2 \caesura
+    d2 \[ e4( f) \] e2 d4 e d2 \caesura
+    e4 e \[ d( e)\] \[ b( c)\] d2 c b1 \section
 }
 
 MelodyMusicTwo = \relative c' { 
     \cadenzaOn
-    \[g'2( a) \] g4 g e \[ f( e ) \] d2 \caesura
-    f4 f f e \[ f2( g) \] e \caesura
-    g4 g2 g4 f2 f4 f e2 \caesura
-    f4 f e2 f g f e \caesura
-    g4 g g g f2 e d\longa \section
+    \stemDown
+    d4 d d2 \[e4( f)\] \[ e2( d4 e) \] d2 \caesura
+    d4 d2 e4 c \[ d2.( c4)\] b2 \caesura
+    d4 d2 \[ e4( f)\] e2 d4 e d2 \caesura
+    d4 d d2 e4 d2. c4 b2 \caesura
+    e4 e \[ d( e)\] \[ b( c)\] d2 c b1 \section
+
 }
 
 
@@ -36,8 +35,8 @@ MelodyMusicTwo = \relative c' {
 VerseOne = \lyricmode {
     Lord, I "have cried unto" Thee, hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I "have cried unto Thee," hear -- ken un -- to me;
-    at -- tend to the voice of my sup -- pli -- ca -- tion,
+    Lord, I have "cried unto Thee," hear -- ken un -- to me;
+    at -- tend to "the voice of my sup" -- pli -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
 
