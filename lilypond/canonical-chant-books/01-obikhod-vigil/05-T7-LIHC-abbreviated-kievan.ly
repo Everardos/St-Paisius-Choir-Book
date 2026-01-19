@@ -7,33 +7,34 @@
     ))
 }
 
+% The "f"s around the g in the second phrase (either before and after, or only after, depending on the phrase) are, in the canonical book, an e. F sounds better.
 
 MelodyMusicOne = \relative c' { 
     \cadenzaOn
-    d2 d4 d\breve c4 d e2 c4 c c c2 \caesura
-    e4 e e d e2 e d \caesura
-    d2 d4 d\breve b4 c d c b a2 \caesura
-    d4 d2 d4 d\breve c4 d e2 c \caesura
-    e4 d e2 e4 e d2 \caesura
-    e2 d c4 c b2 \[ c4( b) \] a \section
+    e2 d4 e e e d e f2 f4 f f e2 \caesura
+    \[ g4( e)\] e e e d2 d4 c2 \caesura
+    e2 d4 e e e d e f2 f4 f f e2 \caesura
+    f4 \[ g( e) \] e e\breve d2 c \caesura
+    e2 d4 f2 f4 f e2 \caesura
+    g2 g4 g f e2 \[ f4( e)\] d\longa \section
 }
 
 MelodyMusicTwo = \relative c' { 
     \cadenzaOn
-    d4 d d2 d4 e2 c \caesura
-    e4 e e d e2 d \caesura
-    d4 d2 b4 \[ c( d)\] c b a2 \caesura
-    d4 d d2 d4 e2 c4 c2 \caesura
-    e2 d c4 c b2 \[ c4( b) \] a \section
+    c4 d e2 e4 f2 e \caesura
+    f4 \[ g( f)\] e e d2 c \caesura
+    c4 e2 e4 f2 f4 f e2 \caesura
+    e4 f \[ g( f)\] e d2 d4 c2 \caesura
+    g2 g4 g f e2 \[ f4( e)\] d\longa \section
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, I "have cried un" -- to Thee, hear -- ken un -- to me.
+    Lord, I have cried un -- to Thee, hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I "have cried unto" Thee, hear -- ken un -- to me;
-    at -- tend to "the voice of my" sup -- pli -- ca -- tion,
+    Lord, I have cried un -- to Thee, hear -- ken un -- to me;
+    at -- tend to "the voice of my suppli" -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
 

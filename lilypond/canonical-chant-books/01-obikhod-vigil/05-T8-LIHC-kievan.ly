@@ -10,32 +10,34 @@
 
 MelodyMusicOne = \relative c' { 
     \cadenzaOn
-    d2 d4 d\breve c4 d e2 c4 c c c2 \caesura
-    e4 e e d e2 e d \caesura
-    d2 d4 d\breve b4 c d c b a2 \caesura
-    d4 d2 d4 d\breve c4 d e2 c \caesura
-    e4 d e2 e4 e d2 \caesura
-    e2 d c4 c b2 \[ c4( b) \] a \section
+    f2 e4 e\breve f2 f4 f e d2 \caesura
+    f4 f f e f2 \[ g4( f) \] e2 \caesura
+    f4 f\breve e2 \[ d4( f)\] e2 d c \caesura
+    e4 e\breve \[ f2.( e4) \] d2 \caesura
+    f4 e f2 g4 f e2 \caesura
+    g4 g\breve f2 e d\longa \section
+
 }
 
 MelodyMusicTwo = \relative c' { 
     \cadenzaOn
-    d4 d d2 d4 e2 c \caesura
-    e4 e e d e2 d \caesura
-    d4 d2 b4 \[ c( d)\] c b a2 \caesura
-    d4 d d2 d4 e2 c4 c2 \caesura
-    e2 d c4 c b2 \[ c4( b) \] a \section
+    d4 e f2 e4 \[ f2.( e4) \] d2 \caesura
+    f4 f f e \[ f2( g4 f) \] e2 \caesura
+    f4 f f \[ e2( d4 f e2) \] d4 d c2 \caesura
+    e4 e\breve f2. e4 d2 \caesura
+    g4 g\breve f2 e d\longa \section
+
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, I "have cried un" -- to Thee, hear -- ken un -- to me.
+    Lord, I "have cried unto Thee," hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I "have cried unto" Thee, hear -- ken un -- to me;
-    at -- tend to "the voice of my" sup -- pli -- ca -- tion,
+    Lord, "I have cried un -- to Thee," hear -- ken un -- to me;
+    at -- "tend to the voice of my suppli" -- ca -- tion,
     when I cry un -- to Thee.
-    Hear -- ken un -- to me, O Lord.
+    Hear -- "ken unto" me, O Lord.
 
     }
 
@@ -43,8 +45,8 @@ VerseTwo = \lyricmode {
     Let my prayer be set forth
     as in -- cense be -- fore Thee,
     the lift -- ing up of my hands
-    as an eve -- ning sac -- ri -- fice.
-    Heark -- en un -- to me, O Lord.
+    as "an evening" sac -- ri -- fice.
+    Hear -- "ken unto" me, O Lord.
 }
 
 
