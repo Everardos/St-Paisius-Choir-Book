@@ -1,0 +1,1 @@
+% NOTE: These are in stichera tones. The St. Vlad's book has them in obikhod, but you can/should reset them as kievan.
