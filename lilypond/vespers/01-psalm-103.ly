@@ -1,13 +1,12 @@
 \version "2.24.4"
 
 \header {
-    title = "lord, i have cried"
-    subtitle = "Tone I"
-    composer = "Znamenny"
+    title = "Bless the Lord"
+    composer = "Valaam"
     tagline = " "
 }
 
-keyTime = { \key f \major}
+keyTime = { \key g \major}
 
 
 bindernumber = \markup {
@@ -83,41 +82,30 @@ cadenzaMeasure = {
 SopMusic    = \relative { %done
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    a'4( bes8[ c]) a4 \hideNotes a a a a \unHideNotes a bes8([ a]) g4 a a(g1) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
-    % recitative section, ending at when
-    f2 f4 \hideNotes f f f f  f f f \break  f f f f   f f f  \unHideNotes f g a4.( g8) f8([ g]) a4 a8( g2.) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
+    g'4 g a( g fis g a) a( g) fis g8([ fis] e2) b'4\rest \cadenzaMeasure
 
-    d4 e f \hideNotes f f f   f f f f  \break f f f f f f   f f  \unHideNotes
-    f g a4.( g8 f[ g]) a4 a8( g2.) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
+    g4( fis g2 fis4) fis( e) fis( g) a1( g4 fis g a2 b4 a g2) g2.( fis4) \cadenzaMeasure
 
-
+    
 }
 
 BassMusic   = \relative { %not started
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
+    e4 e d1( c4) c( e) e d( e2) s4 \cadenzaMeasure
+
     
+
 }
 
 
 
 VerseOne = \lyricmode { 
-    Lord, __ I have cried unto Thee, hear -- ken un -- to me.
-    Hear -- ken un -- to me, O Lord.
-    Lord, I have cried unto Thee, hearken unto me; 
-    attend to the voice of my supplication,
-    when I cry un -- to Thee.
-    Hear -- ken un -- to me, O Lord.
+    Bless the Lord, __ O __ my soul; __
 
-    Let my prayer be set forth
-    as incense before Thee,
-    the lifting up of my hands
-    as an eve -- ning sac -- ri -- fice.
-    Heark -- en un -- to me, O Lord.
-}
+    Bles -- sed art Thou O 
+    Lord
+    }
 
 
 \score {

@@ -83,15 +83,21 @@ cadenzaMeasure = {
 SopMusic    = \relative { %done
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    a'4( bes8[ c]) a4 \hideNotes a a a a \unHideNotes a bes8([ a]) g4 a a(g1) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
-    % recitative section, ending at when
-    f2 f4 \hideNotes f f f f  f f f \break  f f f f   f f f  \unHideNotes f g a4.( g8) f8([ g]) a4 a8( g2.) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
+    a'4( bes8[ c]) a4 a8([ g]) bes4( a g8[ f]) g( [ a]) bes4 a( g8[ a] g2) \cadenzaMeasure
+    c4 c bes8([ a]) bes4 a1 \cadenzaMeasure
+    f8([ g] a4) a4 a8([ g]) f4 g4.( e8 f4) e4 d1 \cadenzaMeasure
 
-    d4 e f \hideNotes f f f   f f f f  \break f f f f f f   f f  \unHideNotes
-    f g a4.( g8 f[ g]) a4 a8( g2.) \cadenzaMeasure
-    f8([ g]) a4 a8([ g]) f4 g4.( e8) f4( e) d1 \cadenzaMeasure
+    f8 \hideNotes f f f f \unHideNotes f g4 g8 f e e2 \cadenzaMeasure
+    d8 d d d f \hideNotes f f \unHideNotes f f f4 f2 \cadenzaMeasure
+    f4 f8([ g]) a4.( g8) f8([ g]) a4 a8( g4.) \cadenzaMeasure
+    f8([ g] a4) a4 a8([ g]) f4 g4.( e8 f4) e4 d1 \cadenzaMeasure
+
+
+    f8 \hideNotes f f f f f f f f \unHideNotes f f2 \cadenzaMeasure
+    f8 \hideNotes f f \unHideNotes f g a2 \cadenzaMeasure
+    a4 a a a8([ g]) f([ g]) a4 a8( g4.) \cadenzaMeasure
+    f8([ g] a4) a4 a8([ g]) f4 g4.( e8 f4) e4 d1 \cadenzaMeasure
+
 
 
 }
@@ -99,21 +105,34 @@ SopMusic    = \relative { %done
 BassMusic   = \relative { %not started
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    
+    f'2 f4 f d2. c4 d f2( g2) \cadenzaMeasure
+    f4 f f f f1 \cadenzaMeasure
+    f2 d4 d d g2( d4) d4 d1 \cadenzaMeasure
+
+    f8 \hideNotes f f f f \unHideNotes f d4 d8 d d d2 \cadenzaMeasure
+    d8 d d d d \hideNotes d d \unHideNotes d d d4 d2 \cadenzaMeasure
+    d4 d f2 c4 c c2 \cadenzaMeasure
+    f2 d4 d d g2( d4) d4 d1 \cadenzaMeasure
+
+    f8 \hideNotes f f f f f f f f \unHideNotes f f2 \cadenzaMeasure
+    f8 \hideNotes f f \unHideNotes f f f2 \cadenzaMeasure
+    f4 f f f c c c2 \cadenzaMeasure
+    f2 d4 d d g2( d4) d4 d1 \cadenzaMeasure
 }
 
 
 
 VerseOne = \lyricmode { 
-    Lord, __ I have cried unto Thee, hear -- ken un -- to me.
+    Lord, I have cried un -- to Thee, 
+    hear -- ken un -- to me.
     Hear -- ken un -- to me, O Lord.
-    Lord, I have cried unto Thee, hearken unto me; 
-    attend to the voice of my supplication,
+    Lord, I have cried unto Thee, hear -- ken un -- to me; 
+    at -- tend to the voice of my sup -- pli -- ca -- tion,
     when I cry un -- to Thee.
     Hear -- ken un -- to me, O Lord.
 
     Let my prayer be set forth
-    as incense before Thee,
+    as incense be -- fore Thee,
     the lifting up of my hands
     as an eve -- ning sac -- ri -- fice.
     Heark -- en un -- to me, O Lord.
