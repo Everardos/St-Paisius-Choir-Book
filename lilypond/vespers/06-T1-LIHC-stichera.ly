@@ -90,17 +90,17 @@ cadenzaMeasure = {
 % =========
 
 StichosASop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     f'4 f g \hideNotes g g g \unHideNotes g \cadenzaMeasure \bar "!"
     g4 g g8([ f]) g([ a]) bes2( a8[ g]) a4 g2 \cadenzaMeasure \fine
 }
 
 StichosABass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     s4 s s   s s s   s \cadenzaMeasure
-    g'4 g g8([ f]) f4 f2. f4 f2 \cadenzaMeasure
+    c'4 c c c f2. f4 f2 \cadenzaMeasure
     
 }
 
@@ -113,13 +113,13 @@ StichosAText = \lyricmode {
 % =========
 
 StichosBSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosBBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -132,13 +132,13 @@ StichosBText = \lyricmode {
 % =========
 
 StichosCSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosCBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -151,13 +151,13 @@ StichosCText = \lyricmode {
 % =========
 
 StichosDSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosDBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -170,13 +170,13 @@ StichosDText = \lyricmode {
 % =========
 
 StichosESop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosEBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -189,13 +189,13 @@ StichosEText = \lyricmode {
 % =========
 
 StichosFSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosFBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -208,13 +208,13 @@ StichosFText = \lyricmode {
 % =========
 
 StichosGSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosGBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -227,13 +227,13 @@ StichosGText = \lyricmode {
 % =========
 
 StichosHSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosHBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -246,13 +246,13 @@ StichosHText = \lyricmode {
 % =========
 
 StichosISop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 StichosIBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -265,14 +265,14 @@ StichosIText = \lyricmode {
 % =========+
 
 StichosJSop    = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
 
     
 }
 
 StichosJBass   = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -291,15 +291,15 @@ StichosJText = \lyricmode {
 % ==========
 
 SticheraASop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     a'8([ g]) a4( bes8[ c]) a4 bes8([ a]) g4 a g f8([ e]) f([ g]) a([ g]) a2 \cadenzaMeasure
 }
 
 SticheraABass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
-    f'4 f2 f4 f d d c c d d f2 \cadenzaMeasure 
+    f'4 f2 f4 f d d c c d c f2 \cadenzaMeasure 
     
 }
 
@@ -313,13 +313,13 @@ SticheraAText = \lyricmode {
 % ==========
 
 SticheraBSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraBBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -332,13 +332,13 @@ SticheraBText = \lyricmode {
 % ==========
 
 SticheraCSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraCBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -351,13 +351,13 @@ SticheraCText = \lyricmode {
 % ==========
 
 SticheraDSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraDBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -370,13 +370,13 @@ SticheraDText = \lyricmode {
 % ==========
 
 SticheraESop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraEBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -389,13 +389,13 @@ SticheraEText = \lyricmode {
 % ==========
 
 SticheraFSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraFBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -408,13 +408,13 @@ SticheraFText = \lyricmode {
 % ==========
 
 SticheraGSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraGBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -427,13 +427,13 @@ SticheraGText = \lyricmode {
 % ==========
 
 SticheraHSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraHBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -446,13 +446,13 @@ SticheraHText = \lyricmode {
 % ==========
 
 SticheraISop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraIBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
@@ -465,13 +465,13 @@ SticheraIText = \lyricmode {
 % ===========
 
 SticheraJSop = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
 
 SticheraJBass  = \relative {
-    \override Score.BarNumber.break-visibility = ##(#f #t #t)
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \cadenzaOn
     
 }
