@@ -80,7 +80,7 @@ cadenzaMeasure = {
   \cadenzaOn
 }
 
-SopMusic    = \relative { %done
+SopMusic    = \relative {
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     a'4( bes8[ c]) a4 \hideNotes a a a a \unHideNotes a bes8([ a]) g4 a a(g1) \cadenzaMeasure
@@ -96,7 +96,7 @@ SopMusic    = \relative { %done
 
 }
 
-BassMusic   = \relative { %not started
+BassMusic   = \relative { %not used by Holy Cross
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     
