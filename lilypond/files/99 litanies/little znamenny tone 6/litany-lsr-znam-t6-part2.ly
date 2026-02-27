@@ -18,28 +18,28 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'2( f4) g a( g f g) a2 \cadenzaMeasure \section
+    g'4 g f4 g a( g f g) a2 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    c'2( d4) c f( c d c ) f2 \cadenzaMeasure \section
+    c'4 c d4 c f( c d c ) f2 \cadenzaMeasure \section
 }
 
 
 
 VerseOne = \lyricmode {
-    Lord, have mer -- cy.
+    Гос -- по -- ди по -- ми -- луй.
     }
 
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-1
-    Гос-по-ди по -- ми -- луй
+    Gos -- po -- di po -- mi -- luy.
     }
 VerseThree = \lyricmode {
     \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
     \override LyricText.font-size = #'-1
-    Gos-po-di po -- mi -- luy
+    Lord, _ _ have mer -- cy.
+
 }
 
 

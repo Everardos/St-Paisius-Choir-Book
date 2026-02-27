@@ -18,36 +18,28 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4( a) bes2( a2.) g4 a2( g f) \cadenzaMeasure \section
+    g'4( a) bes2 a2. g4 a2( g f) \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    g'4( f) bes,2( f'2.) c4 f2( c d) \cadenzaMeasure \section
+    g'4( f) bes,2 f'2. c4 f2( c d) \cadenzaMeasure \section
 }
 
 
 
 VerseOne = \lyricmode {
-    To Thee, __ O Lord. __
+    Те -- бе, Гос -- по -- ди. __
     }
 
 VerseTwo = \lyricmode {
-    \override LyricText.font-size = #'-1
-    
-    Те --
-    \set ignoreMelismata = ##t
-    бе, Гос -- 
-    \set ignoreMelismata = ##f по -- ди. __
+    Tye -- bye, Gos -- po -- di. __    
     }
 VerseThree = \lyricmode {
     \override LyricText.font-name = #"EB Garamond, Semi-Bold Italic"
     \override LyricText.font-size = #'-1
-    Tye -- 
-    \set ignoreMelismata = ##t
-    bye, Gos -- 
-    \set ignoreMelismata = ##f
-    po -- di. __
+    To Thee, _ O Lord. __
+
 }
 
 
