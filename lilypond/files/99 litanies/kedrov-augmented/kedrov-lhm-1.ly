@@ -18,23 +18,24 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    a4 a bes1 a \cadenzaMeasure \section
+    a'2 a a1 a \cadenzaMeasure
+
 }
 
 AltoMusic = \relative { 
     \cadenzaOn
-    f4 f f1 f \cadenzaMeasure \section
+    f'2 f f1 f \cadenzaMeasure
 }
 
 TenorMusic = \relative { 
     \cadenzaOn
-    c4 c d1 c \cadenzaMeasure \section
+    c'2 c c1 c \cadenzaMeasure
 }
 
 
 BassMusic   = \relative {
     \cadenzaOn
-    f4 f f1 f \cadenzaMeasure \section
+    f2 f f1 f \cadenzaMeasure
 }
 
 
