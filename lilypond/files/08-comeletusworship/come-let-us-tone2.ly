@@ -194,7 +194,7 @@ VerseOne = \lyricmode {
     {
       \column {
         \left-align {
-            "2. [Who art wondrous in Thy saints.]"
+            "2. [Who is wondrous in His saints.]"
             "3. [through the prayers of the Theotokos]"
             "4. [through the prayers of the Forerunner]"
             \line {"5." \ebItalic{Cross:} "[Who wast crucified in the flesh.]"}
