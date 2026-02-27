@@ -84,7 +84,7 @@ SopMusic    = \relative { %done
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     a'4 \hideNotes \repeat unfold 12 {a} \unHideNotes a a2 a2 \cadenzaMeasure
-    a4 \hideNotes \repeat unfold 6 {a} \unHideNotes a g a2 g4 f g2 \cadenzaMeasure \section
+    a4 \hideNotes \repeat unfold 7 {a} \unHideNotes a g a2 g4 f g2 \cadenzaMeasure \section
     f4 f f g2 g4 \hideNotes g g \unHideNotes g f g a( g) f( g) a2 \cadenzaMeasure
     g4 g g a bes2 a4 \hideNotes a a a \unHideNotes a g a2( g) f \cadenzaMeasure
     f4 g a2 a4 \hideNotes a a a \unHideNotes a g a( g f2) g \cadenzaMeasure
@@ -100,7 +100,7 @@ BassMusic   = \relative { %not started
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
     f'4 \hideNotes \repeat unfold 12 {f} \unHideNotes f f2 f \cadenzaMeasure
-    f4 \hideNotes \repeat unfold 6 {f} \unHideNotes f c f2 c4 d c2 \cadenzaMeasure \section
+    f4 \hideNotes \repeat unfold 7 {f} \unHideNotes f c f2 c4 d c2 \cadenzaMeasure \section
     d4 d d c2 c4 \hideNotes c c  \unHideNotes c d c f( c) d( c) f2 \cadenzaMeasure
     g4 g g f bes,2 f'4 \hideNotes f f f \unHideNotes f c f2( c) d \cadenzaMeasure
     d4 c f2 f4 \hideNotes f f f \unHideNotes f c f( c d2) c \cadenzaMeasure
@@ -117,7 +117,7 @@ BassMusic   = \relative { %not started
 
 VerseOne = \lyricmode { 
     [Glo -- ry to the Father, and to the Son, and to the Ho -- ly Spir -- it.]
-    Both now and ever and unto ag -- es of ag -- es. A -- men.
+    Both now and ever and unto the ag -- es of ag -- es. A -- men.
     On -- ly be -- got -- ten Son and Im -- mor -- tal Word __ of __ God,
     who for our sal -- va -- tion didst will to be in -- car -- nate
     of the ho -- ly Theotokos and ever -- Vir -- gin Mar -- y,
