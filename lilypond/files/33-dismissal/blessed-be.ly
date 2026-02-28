@@ -38,8 +38,8 @@ AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
     f'2 f1 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f f \unHideNotes f d f2 f4 f2 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f f \unHideNotes f d f4 f2 e f1 \cadenzaMeasure \fine
+    f4 \hideNotes f f f f f f f f \unHideNotes f e f2 f4 f2 \cadenzaMeasure
+    f4 \hideNotes f f f f f f f f \unHideNotes f e f4 f2 e f1 \cadenzaMeasure \fine
 
     %f'4 f f f2 d4 f f2 e4 e f2 \cadenzaMeasure \section
 
@@ -49,8 +49,8 @@ TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
     c'2 c1 \cadenzaMeasure \bar ".|:"
-    c4 \hideNotes c c c c c c c c \unHideNotes c bes c2 c4 c2 \cadenzaMeasure \bar ":|."
-    c4 \hideNotes c c c c c c c c \unHideNotes c bes c d2 c c1 \cadenzaMeasure \fine
+    c4 \hideNotes c c c c c c c c \unHideNotes c c c2 c4 c2 \cadenzaMeasure \bar ":|."
+    c4 \hideNotes c c c c c c c c \unHideNotes c c c d2 c c1 \cadenzaMeasure \fine
 
     %c'4 c c c2 bes4 c d2 c4 c c2 \cadenzaMeasure \section
 }
@@ -59,8 +59,8 @@ BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
     f2 f1 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f f \unHideNotes f g f2 f4 f2 \cadenzaMeasure
-    f4 \hideNotes f f f f f f f f \unHideNotes f g f bes,2 c f1 \cadenzaMeasure
+    f4 \hideNotes f f f f f f f f \unHideNotes f c f2 f4 f2 \cadenzaMeasure
+    f4 \hideNotes f f f f f f f f \unHideNotes f c f bes,2 c f1 \cadenzaMeasure
 
     %f4 f f f2 g4 f bes,2 c4 c f2 \cadenzaMeasure \section
 }

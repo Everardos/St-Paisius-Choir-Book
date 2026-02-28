@@ -39,9 +39,9 @@ SopMusic    = \relative {
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f'4 \hideNotes f f f   f f f   f f f  f f \unHideNotes f d f2 f \cadenzaMeasure
-    f4 \hideNotes f f f   f f f   f  \unHideNotes f d f2 f4 f f2 \cadenzaMeasure
-    f4 \hideNotes f f f   f f \unHideNotes f d f2 f \cadenzaMeasure
+    f'4 \hideNotes f f f   f f f   f f f  f f \unHideNotes f e f2 f \cadenzaMeasure
+    f4 \hideNotes f f f   f f f   f  \unHideNotes f e f2 f4 f f2 \cadenzaMeasure
+    f4 \hideNotes f f f   f f \unHideNotes f e f2 f \cadenzaMeasure
     f2 e f1 \cadenzaMeasure \fine
 
     %f'4 f f f2 d4 f f2 e4 e f2 \cadenzaMeasure \section
@@ -51,9 +51,9 @@ AltoMusic   = \relative {
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    c'4 \hideNotes c c c   c c c   c c c   c c  \unHideNotes c bes c2 c \cadenzaMeasure 
-    c4 \hideNotes c c c   c c c   c \unHideNotes c bes c2 c4 c c2 \cadenzaMeasure 
-    c4 \hideNotes c c c   c c  \unHideNotes c bes c2 c \cadenzaMeasure
+    c'4 \hideNotes c c c   c c c   c c c   c c  \unHideNotes c c c2 c \cadenzaMeasure 
+    c4 \hideNotes c c c   c c c   c \unHideNotes c c c2 c4 c c2 \cadenzaMeasure 
+    c4 \hideNotes c c c   c c  \unHideNotes c c c2 c \cadenzaMeasure
     d2 c c1 \cadenzaMeasure \fine
 
 
@@ -63,9 +63,9 @@ TenorMusic  = \relative {
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f4 \hideNotes f f f   f f f   f f f   f f \unHideNotes f g f2 f \cadenzaMeasure
-    f4 \hideNotes f f f   f f f   f  \unHideNotes f g f2 f4 f f2 \cadenzaMeasure
-    f4 \hideNotes f f f   f f  \unHideNotes f g f2 f \cadenzaMeasure
+    f4 \hideNotes f f f   f f f   f f f   f f \unHideNotes f c f2 f \cadenzaMeasure
+    f4 \hideNotes f f f   f f f   f  \unHideNotes f c f2 f4 f f2 \cadenzaMeasure
+    f4 \hideNotes f f f   f f  \unHideNotes f c f2 f \cadenzaMeasure
     bes,2 c f1 \cadenzaMeasure \fine
 
     %f4 f f f2 g4 f bes,2 c4 c f2 \cadenzaMeasure \section

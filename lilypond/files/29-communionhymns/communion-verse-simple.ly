@@ -92,26 +92,26 @@ SopMusic    = \relative {
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f'4 \hideNotes f f \unHideNotes f d f2 f \cadenzaMeasure
-    f4 f f d f2 f \cadenzaMeasure \section
-    f4 \hideNotes f f f f f f \unHideNotes f d f f2 e f1 \cadenzaMeasure \section
+    f'4 \hideNotes f f \unHideNotes f e f2 f \cadenzaMeasure
+    f4 f f e f2 f \cadenzaMeasure \section
+    f4 \hideNotes f f f f f f \unHideNotes f e f f2 e f1 \cadenzaMeasure \section
     
 }
 
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    c'4 \hideNotes c c \unHideNotes c bes c2 c \cadenzaMeasure
-    c4 c c bes c2 c \cadenzaMeasure \section
-    c4 \hideNotes c c c c c c \unHideNotes c bes c d2 c c1 \cadenzaMeasure \section
+    c'4 \hideNotes c c \unHideNotes c c c2 c \cadenzaMeasure
+    c4 c c c c2 c \cadenzaMeasure \section
+    c4 \hideNotes c c c c c c \unHideNotes c c c d2 c c1 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f4 \hideNotes f f \unHideNotes f g f2 f \cadenzaMeasure
-    f4 f f g f2 f \cadenzaMeasure \section
-    f4 \hideNotes f f f f f f \unHideNotes f g f bes,2 <c g'> f1 \cadenzaMeasure
+    f4 \hideNotes f f \unHideNotes f c f2 f \cadenzaMeasure
+    f4 f f c f2 f \cadenzaMeasure \section
+    f4 \hideNotes f f f f f f \unHideNotes f c f bes,2 <c g'> f1 \cadenzaMeasure
 }
 
 VerseOne = \lyricmode {
