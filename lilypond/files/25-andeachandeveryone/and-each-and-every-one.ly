@@ -25,19 +25,19 @@ SopMusic    = \relative {
 AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f'2 d f f1 e f1 \cadenzaMeasure \section
+    f'2 e f f1 e f1 \cadenzaMeasure \section
 }
 
 TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    c'2 bes c d1 c c1 \cadenzaMeasure \section
+    c'2 c c d1 c c1 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
-    f2 g f bes,1 c f1 \cadenzaMeasure \section
+    f2 c f bes,1 c f1 \cadenzaMeasure \section
 }
 
 VerseOne = \lyricmode {
