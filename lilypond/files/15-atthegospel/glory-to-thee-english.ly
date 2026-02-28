@@ -26,7 +26,7 @@ AltoMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
 
-    f'4 f f f2 d4 f f2 e4 e f2 \cadenzaMeasure \section
+    f'4 f f f2 e4 f f2 e4 e f2 \cadenzaMeasure \section
 
 }
 
@@ -34,14 +34,14 @@ TenorMusic  = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
 
-    c'4 c c c2 bes4 c d2 c4 c c2 \cadenzaMeasure \section
+    c'4 c c c2 c4 c d2 c4 c c2 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \override Score.BarNumber.break-visibility = #all-visible
     \cadenzaOn
 
-    f4 f f f2 g4 f bes,2 c4 c f2 \cadenzaMeasure \section
+    f4 f f f2 c4 f bes,2 c4 c f2 \cadenzaMeasure \section
 }
 
 VerseOne = \lyricmode {
