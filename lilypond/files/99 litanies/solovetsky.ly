@@ -13,31 +13,23 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    f'2 f1 \cadenzaMeasure
-    e4( f g2.) g4 g1 f \cadenzaMeasure
-    f2( g2.) g4 g1 f \cadenzaMeasure
-    d2( f g2.) g4 g1 f \cadenzaMeasure
-    e4( f) g1 g4( e) f( g2. f1) \cadenzaMeasure
-    f2( e) f1 \cadenzaMeasure
+    d'4.( e8) e16([ d] e8) f8([ e] f[ c]) d1 \cadenzaMeasure
+    f4.( e8) e16([ d] e8) f8([ g] f[ e]) d1 \cadenzaMeasure
+    d4.( e8) e16([ d] e8) f8([ e d c]) d1 \cadenzaMeasure
+    d4.( e8) e16([ d]) e8 f8([ e d c] d1) \cadenzaMeasure
+    f2( e4) d1 \cadenzaMeasure
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    f'2 f1 \cadenzaMeasure
-    c2~ c2. c4 c1 f \cadenzaMeasure
-    d2( c2.) c4 c1 f \cadenzaMeasure
-    d1(c2.) c4 c1 f \cadenzaMeasure
-    c2 c1 c2 c1( f)  \cadenzaMeasure
-    c1( f) \cadenzaMeasure
 }
 
 
 
 VerseOne = \lyricmode {
-    A -- men.
-    Lord, __ have mer -- cy.
-    Lord, __ have mer -- cy.
-    Lord, __ have mer -- cy.
+    Lord, __ have __ mer -- cy.
+    Lord, __ have __ mer -- cy.
+    Lord, __ have __ mer -- cy.
     To __ Thee, O __ Lord. __
     A -- men.
     }
