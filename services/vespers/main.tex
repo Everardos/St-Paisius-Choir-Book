@@ -1,0 +1,154 @@
+\documentclass[letterpaper, 12pt]{memoir}
+\usepackage{tabto}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[x11names]{xcolor}
+\usepackage{ragged2e}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{dashrule}
+\usepackage{paracol}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{marginnote}
+\usepackage{lyluatex}
+\usepackage{epigraph}
+\usepackage{mwe}
+\usepackage{iftex}
+\ifluatex
+  \usepackage[no-math]{fontspec}
+  \setmainfont{EB Garamond}[Ligatures={TeX,Common},
+      Numbers={OldStyle,Proportional},
+      UprightFont = *-Regular,
+      BoldFont = *-SemiBold,
+      ItalicFont = *-Italic,
+      BoldItalicFont = *-SemiBoldItalic] % choose suitable options
+\else\ifxetex
+  \usepackage[no-math]{fontspec}
+  \setmainfont{EB Garamond}[Ligatures={TeX,Common},
+      Numbers={OldStyle,Proportional}]
+\else % we must be using pdftex
+  \usepackage[oldstyle,proportional]{ebgaramond}
+\fi\fi
+
+
+% Title and other metadata
+
+\title{Presanctified Liturgy}
+\date{\today}
+
+% Font and image setup
+
+%\providecommand\sbseries{\fontseries{sb}\selectfont}
+%\DeclareTextFontCommand{\textsb}{\sbseries}
+%\let\olditem\item
+
+\graphicspath{ {../../img/} }
+
+
+% Commands for different parts of the liturgy
+\newcommand{\priest}{\mdseries \item[\textbf{Priest}]}
+\newcommand{\deacon}{\mdseries \item[\textbf{Deacon}]}
+\newcommand{\choir}{\normalfont\bfseries \item[\textbf{\textsc{choir}}]}
+\newcommand{\choirsemisecret}{\normalfont\bfseries\scshape \item[\textbf{\textsc{choir}}]}
+\newcommand{\clergy}{\mdseries \item[\textbf{Clergy}]}
+\newcommand{\reader}{\mdseries \item[\textbf{Reader}]}
+\newcommand{\people}{\normalfont\bfseries \item[\textbf{\textsc{people}}]}
+
+\renewcommand{\epigraphflush}{center}
+\renewcommand{\epigraphsize}{\footnotesize}
+\setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{3in}
+
+% Other commands
+\newcommand{\rubric}[1]{{\normalfont\color{Red1}\itshape{#1}}}
+
+% Environments
+
+\newenvironment{rubricsection}{
+    \vspace{3mm}%
+    \includegraphics[width=1\linewidth]{border1-L.png}%
+    }
+    {
+    \includegraphics[width=1\linewidth]{border1-L.png}%
+    \vspace{3mm}%
+}
+\newenvironment{liturgicaltext}{
+    \begin{description}[labelwidth=4em,leftmargin =\dimexpr\labelwidth+\labelsep\relax]
+    }
+    {
+    \end{description}
+}
+\newenvironment{rubricmed}{
+    \vspace{-6mm}
+    \begin{Center}\color{Red1}\itshape
+    }{\end{Center}\vspace{-6mm}}
+
+\newenvironment{hymn}{
+    \textbf{\textsc{Choir}}
+    \bfseries
+}{\mdseries}
+
+\newenvironment{semisecret}{
+    \begin{Center}{\color{Red1} \hdashrule[0.5ex]{\linewidth}{0.4mm}{3mm 2mm 1mm 2mm}}\end{Center}
+}{
+    \begin{Center}{\color{Red1} \hdashrule[0.5ex]{\linewidth}{0.4mm}{3mm 2mm 1mm 2mm}}\end{Center}
+}
+
+\newenvironment{secretprayer}{
+    \small
+    \begin{Center}{\rubric{The priest prays secretly:}}\end{Center}
+}{}
+
+\newenvironment{secretprayerbasil}{
+    \small
+    \begin{Center}{\rubric{The priest prays secretly:}}\end{Center}
+    \begin{paracol}{2}
+        \noindent{\textbf{\textsc{St. John:}}}
+        \switchcolumn
+        \noindent{\textbf{\textsc{St. Basil:}}}
+        \switchcolumn
+}{
+    \end{paracol}
+}
+
+
+
+\titleformat{\section}[display]{\normalfont\Large\scshape}{}{0.5ex}{\Centering}[]
+
+
+\begin{document}
+    \pagestyle{plain}
+    \frontmatter
+    \input{00-C-prayerforsingers.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{00-D-romanianliturgybeginning.tex} \newpage
+    \mainmatter
+    \input{01-greatlitany.tex}\newpage %pg 8 end
+    % \input{02-firstantiphon.tex} \newpage
+    \input{03-littlelitany1.tex} \newpage 
+    % \input{04-secondantiphon.tex} \newpage
+    \input{05-littlelitany2.tex} \newpage
+    % \input{06-thirdantiphon.tex}
+    % \input{07-littleentry.tex} \newpage
+    \input{08-tropariaandkontakia.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{09-trisagion.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{10-epistle.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{11-gospel.tex} \newpage
+    \input{12-augmentedlitany.tex} \newpage
+    \input{13-litanyofthecatechumens.tex} \newpage
+    \input{14-litanyofthefaithful.tex} \newpage
+    % \input{15-cherubichymn.tex} \newpage
+    \input{16-greatentry.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{17-litanyofsupplication.tex} \newpage
+    \input{18-creed.tex} \newpage
+    % \input{19-anaphora.tex} \newpage
+    \input{20-litany-before-our-father.tex} \newpage\null\thispagestyle{empty}\newpage
+    \input{21-our-father.tex} \newpage
+    \input{22-after-the-our-father.tex} \newpage
+    % \input{23-communion-hymn.tex}
+    \input{24-communion.tex} \newpage\null\thispagestyle{empty}\newpage
+    % \input{25-liturgy-ending.tex}
+    \input{26-dismissal.tex}
+
+\end{document}
