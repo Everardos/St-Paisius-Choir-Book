@@ -83,23 +83,34 @@ cadenzaMeasure = {
 SopMusic    = \relative { %done
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    d'4 e f \hideNotes f f f \unHideNotes f e f g( a) a2 \cadenzaMeasure
-    a4 \hideNotes a a \unHideNotes a g2( f4) e d2 \cadenzaMeasure
 
-    f4 \hideNotes f f f \unHideNotes f e f g( a) a2 \cadenzaMeasure
+    d'4 e f f f e f g a a a2 \cadenzaMeasure
+    a4 \hideNotes a a \unHideNotes a g2( f4) e d2 \cadenzaMeasure
+     f4 \hideNotes f f f \unHideNotes f e f g( a) a2 \cadenzaMeasure
+
     a4 \hideNotes a a a \unHideNotes a g a bes2. bes4 a2 \cadenzaMeasure
     a4 a a g2 g4 f e d2 \cadenzaMeasure
-
     f4 \hideNotes f f f \unHideNotes f e f g( a) a2 \cadenzaMeasure
 
-    a4 \hideNotes a a \unHideNotes a a2( g4) f g8([ a bes a g f] g2) f1 \cadenzaMeasure
-    
+    a4 bes c2 c4 bes bes a2 \cadenzaMeasure
+    a1( g2 f) g4( a bes a g f g1) f \cadenzaMeasure  
 }
 
 BassMusic   = \relative { 
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
-    
+
+    d'4 c f f f c f c f f f2 \cadenzaMeasure
+    f4 \hideNotes f f \unHideNotes f e2( f4) c d2 \cadenzaMeasure
+    f4 \hideNotes f f f \unHideNotes f c f c( f) f2 \cadenzaMeasure
+
+    f4 \hideNotes f f f \unHideNotes f f f bes,2. d4 f2 \cadenzaMeasure
+    f4 f f e2 e4 f c d2 \cadenzaMeasure
+    f4 \hideNotes f f f \unHideNotes f c f c( f) f2 \cadenzaMeasure
+
+    f4 bes a2 a4 bes4 bes f2 \cadenzaMeasure
+    f1( c2 d) g1~( g4 d c1) f1 \cadenzaMeasure
+
 
 }
 
@@ -115,7 +126,7 @@ VerseOne = \lyricmode {
     
     so that you have right -- ly found Christ God, 
     
-    who granteth to the world great mer -- cy.
+    who hath grant -- ed to the world great mer -- cy.
 
     }
 
