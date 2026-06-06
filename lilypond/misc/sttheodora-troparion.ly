@@ -7,7 +7,7 @@
     tagline = " "
 }
 
-keyTime = { \key f \major}
+keyTime = { \key g \major}
 
 
 bindernumber = \markup {
@@ -80,7 +80,7 @@ cadenzaMeasure = {
   \cadenzaOn
 }
 
-SopMusic    = \relative { %done
+SopMusic    = \transpose f g { \relative { %done
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
 
@@ -94,9 +94,9 @@ SopMusic    = \relative { %done
 
     a4 bes c2 c4 bes bes a2 \cadenzaMeasure
     a1( g2 f) g4( a bes a g f g1) f \cadenzaMeasure  
-}
+}}
 
-BassMusic   = \relative { 
+BassMusic   = \transpose f g { \relative { 
     \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \cadenzaOn
 
@@ -112,7 +112,7 @@ BassMusic   = \relative {
     f1( c2 d) g1~( g4 d c1) f1 \cadenzaMeasure
 
 
-}
+}}
 
 
 
