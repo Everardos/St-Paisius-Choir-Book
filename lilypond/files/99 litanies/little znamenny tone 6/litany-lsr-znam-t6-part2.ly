@@ -18,12 +18,12 @@ cadenzaMeasure = {
 
 SopMusic    = \relative { 
     \cadenzaOn
-    g'4 g f4 g a( g f g) a2 \cadenzaMeasure \section
+    g'2 g4 f4 g a( g f g) a2 \cadenzaMeasure \section
 }
 
 BassMusic   = \relative {
     \cadenzaOn
-    c'4 c d4 c f( c d c ) f2 \cadenzaMeasure \section
+    c'2 c4 d4 c f( c d c ) f2 \cadenzaMeasure \section
 }
 
 

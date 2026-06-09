@@ -18,7 +18,7 @@ SopMusic    = \relative {
 
 BassMusic   = \relative {
     \cadenzaOn
-    f'4( c f d f2 c1) d4( e f g) f4( c f) f1
+    f'4( c f d f2 c1) f4( c d c) d( e f) f1 \cadenzaMeasure
     
 }
 
